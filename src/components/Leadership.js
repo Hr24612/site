@@ -139,6 +139,7 @@ export default class Leadership extends Component {
 											<a
 												href='https://www.stuorg.iastate.edu/site/spacemining'
 												target='_blank'
+												rel='noopener noreferrer'
 												className='links'
 											>
 												Cardinal Space Mining Club
@@ -147,10 +148,14 @@ export default class Leadership extends Component {
 									</div>
 									<p style={{ fontSize: this.state.fontSize }}>
 										Cardinal Space Mining is a student-run club that builds a
-										mining robot to compete at 🚀
+										mining robot to compete at{' '}
+										<span role='img' aria-label=''>
+											🚀
+										</span>
 										<a
 											href='https://www.nasa.gov/offices/education/centers/kennedy/technology/nasarmc.html'
 											target='_blank'
+											rel='noopener noreferrer'
 											className='links'
 										>
 											NASA's annual Robotics Mining Competition
@@ -193,8 +198,16 @@ export default class Leadership extends Component {
 										competition.
 									</p>
 									<p style={{ fontSize: this.state.fontSize }}>
-										For final scores click 👉🏼{' '}
-										<a href={rmcScore} target='_blank' className='links'>
+										For final scores click{' '}
+										<span role='img' aria-label=''>
+											👉🏼
+										</span>{' '}
+										<a
+											href={rmcScore}
+											target='_blank'
+											rel='noopener noreferrer'
+											className='links'
+										>
 											<i>Official Score</i>
 										</a>
 									</p>
@@ -224,6 +237,7 @@ export default class Leadership extends Component {
 									<a
 										href='http://www.ieee.stuorg.iastate.edu/'
 										target='_blank'
+										rel='noopener noreferrer'
 										className='links'
 									>
 										Institute of Electrical and Electronics Engineers (IEEE)
@@ -283,6 +297,7 @@ export default class Leadership extends Component {
 									<a
 										href='https://www.admissions.iastate.edu/destination/'
 										target='_blank'
+										rel='noopener noreferrer'
 										className='links'
 									>
 										Destination Iowa State
@@ -294,8 +309,12 @@ export default class Leadership extends Component {
 									assigned a group of students and is responsible for leading
 									the group through different campus orientation events. As a
 									team leader, I toured my group around campus, helped them move
-									in🏚️, and directed them to campus resources for future
-									academic success.
+									in{' '}
+									<span role='img' aria-label=''>
+										🏚️
+									</span>
+									, and directed them to campus resources for future academic
+									success.
 								</p>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
@@ -322,6 +341,7 @@ export default class Leadership extends Component {
 									<a
 										href='https://isso.dso.iastate.edu/'
 										target='_blank'
+										rel='noopener noreferrer'
 										className='links'
 									>
 										International Students and Scholars Office

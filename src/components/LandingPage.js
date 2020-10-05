@@ -1,8 +1,7 @@
 import React from 'react';
 import '../App.css';
-import { Fade, Zoom } from 'react-reveal';
+import { Fade } from 'react-reveal';
 import { Link } from 'react-router-dom';
-import Skills from './Skills.js';
 import shield from './logo/shield.png';
 import laptop from './logo/laptop.png';
 import bitcoin from './logo/bitcoin.png';
@@ -65,7 +64,7 @@ const LandingPage = () => {
 						<div className='landing-title'>
 							<p>
 								<b>
-									Hi, I'm Amir Hamza <img className='wave' src={wave}></img>
+									Hi, I'm Amir Hamza <img className='wave' src={wave} alt=''/>
 								</b>
 							</p>
 						</div>
@@ -77,7 +76,7 @@ const LandingPage = () => {
 									<div className='landing-title-2'>
 										<p>
 											Full Stack Developer{' '}
-											<img className='laptop' src={laptop} />
+											<img className='laptop' src={laptop} alt=''/>
 										</p>
 									</div>
 								</Fade>
@@ -87,7 +86,7 @@ const LandingPage = () => {
 									<div className='landing-title-2'>
 										<p>
 											Application Security Enthusiast{' '}
-											<img className='shield' src={shield} />
+											<img className='shield' src={shield} alt=''/>
 										</p>
 									</div>
 								</Fade>
@@ -97,7 +96,7 @@ const LandingPage = () => {
 									<div className='landing-title-2'>
 										<p>
 											Blockchain Advocate{' '}
-											<img className='bitcoin' src={bitcoin} />
+											<img className='bitcoin' src={bitcoin} alt=''/>
 										</p>
 									</div>
 								</Fade>

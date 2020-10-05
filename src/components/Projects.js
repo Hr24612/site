@@ -124,9 +124,9 @@ export default class Projects extends Component {
 									marginTop: this.state.margin,
 								}}
 								icon={
-									<a href='' target='_blank'>
-										<i class='fab fa-github'></i>
-									</a>
+									///a href='' target='_blank'>
+									<i class='fab fa-github'></i>
+									//</a>
 								}
 							>
 								<h5 className='vertical-timeline-element-title title'>
@@ -143,11 +143,16 @@ export default class Projects extends Component {
 									for a warehouse quickly and safely.
 								</p>
 								<p style={{ fontSize: this.state.fontSize }}>
-									Click 👉🏼&nbsp;
+									Click{' '}
+									<span role='img' aria-label=''>
+										👉🏼
+									</span>
+									&nbsp;
 									<a
 										className='links'
 										href='https://sddec20-10.sd.ece.iastate.edu/'
 										target='_blank'
+										rel='noopener noreferrer'
 									>
 										<i>Project Website</i>
 									</a>
@@ -175,14 +180,14 @@ export default class Projects extends Component {
 									<a
 										href='https://github.com/Hr24612/PrivateBlockchain'
 										target='_blank'
-										c
+										rel='noopener noreferrer'
 									>
 										<i class='fab fa-github'></i>
 									</a>
 								}
 							>
 								<h5 className='vertical-timeline-element-title title'>
-									Private Blockchain 
+									Private Blockchain
 								</h5>
 								<h6 className='vertical-timeline-element-subtitle title'>
 									Blockchain Certification
@@ -212,6 +217,7 @@ export default class Projects extends Component {
 									<a
 										href='https://github.com/Hr24612/AnonymousDiscussionPost'
 										target='_blank'
+										rel='noopener noreferrer'
 									>
 										<i class='fab fa-github'></i>
 									</a>
@@ -250,6 +256,7 @@ export default class Projects extends Component {
 									<a
 										href='https://github.com/Hr24612/IoTPriceTag'
 										target='_blank'
+										rel='noopener noreferrer'
 									>
 										<i class='fab fa-github'></i>
 									</a>
@@ -268,11 +275,16 @@ export default class Projects extends Component {
 									on a 2000mAh battery.
 								</p>
 								<p style={{ fontSize: this.state.fontSize }}>
-									Click 👉🏼&nbsp;
+									Click{' '}
+									<span role='img' aria-label=''>
+										👉🏼
+									</span>
+									&nbsp;
 									<a
 										className='links'
 										href='https://en.wikipedia.org/wiki/Electronic_paper'
 										target='_blank'
+										rel='noopener noreferrer'
 									>
 										<i>E-Ink Wiki</i>
 									</a>
@@ -298,6 +310,7 @@ export default class Projects extends Component {
 									<a
 										href='https://github.com/Hr24612/CPRE388Labs/tree/master/FinalProject'
 										target='_blank'
+										rel='noopener noreferrer'
 									>
 										<i class='fab fa-github'></i>
 									</a>
@@ -337,6 +350,7 @@ export default class Projects extends Component {
 									<a
 										href='https://github.com/Hr24612/CPRE288Labs'
 										target='_blank'
+										rel='noopener noreferrer'
 									>
 										<i class='fab fa-github'></i>
 									</a>
@@ -353,9 +367,14 @@ export default class Projects extends Component {
 									Launchpad platform.
 								</p>
 								<p style={{ fontSize: this.state.fontSize }}>
-									Click 👉🏼
+									Click{' '}
+									<span role='img' aria-label=''>
+										👉🏼
+									</span>
 									<i>
-										<a href=''>Video</a>{' '}
+										<a href='https://www.youtube.com/watch?v=K8z7e1BPxvA'>
+											Video
+										</a>{' '}
 									</i>{' '}
 									&nbsp;for a live demo
 								</p>
