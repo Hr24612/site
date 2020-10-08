@@ -99,7 +99,7 @@ export default class Projects extends Component {
 							<p className='project-title'>
 								<span role='img' aria-label=''>
 									🛠️
-								</span>
+								</span>{' '}
 								Projects
 							</p>
 						</Fade>

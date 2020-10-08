@@ -215,32 +215,17 @@ body {
 	.work-title {
 		font-size: 35px;
 	}
-	.briefcase {
-		width: 45px;
-		height: 45px;
-		margin: 0px 5px 12px 10px;
-	}
 }
 
 @media screen and (max-width: 992px) {
 	.work-title {
 		font-size: 30px;
 	}
-	.briefcase {
-		width: 45px;
-		height: 45px;
-		margin: 0px 5px 12px 10px;
-	}
 }
 
 @media screen and (max-width: 600px) {
 	.work-title {
 		font-size: 25px;
-	}
-	.briefcase {
-		width: 35px;
-		height: 35px;
-		margin: 0px 5px 12px 10px;
 	}
 }
 
@@ -298,33 +283,18 @@ ul.timeline > li:before {
 /* Leadership */
 
 @media screen and (min-width: 992px) {
-	.leader {
-		width: 45px;
-		height: 45px;
-		margin: 0px 10px 15px 20px;
-	}
 	.leadership-title {
 		font-size: 35px;
 	}
 }
 
 @media screen and (max-width: 992px) {
-	.leader {
-		width: 40px;
-		height: 40px;
-		margin: 0px 10px 15px 20px;
-	}
 	.leadership-title {
 		font-size: 30px;
 	}
 }
 
 @media screen and (max-width: 600px) {
-	.leader {
-		width: 35px;
-		height: 35px;
-		margin: 0px 10px 15px 20px;
-	}
 	.leadership-title {
 		font-size: 25px;
 	}
@@ -350,11 +320,6 @@ ul.timeline > li:before {
 }
 
 @media screen and (min-width: 992px) {
-	.folder {
-		width: 35px;
-		height: 35px;
-		margin: 0px 10px 5px 20px;
-	}
 	.document-title {
 		font-size: 35px;
 	}
@@ -362,17 +327,11 @@ ul.timeline > li:before {
 		margin-top: 10vh;
 	}
 	.fa-file-pdf {
-		color: #1f60cf;
 		font-size: 60px;
 	}
 }
 
 @media screen and (max-width: 992px) {
-	.folder {
-		width: 30px;
-		height: 30px;
-		margin: 0px 1px 5px 20px;
-	}
 	.document-title {
 		font-size: 30px;
 	}
@@ -380,17 +339,11 @@ ul.timeline > li:before {
 		margin-top: 10vh;
 	}
 	.fa-file-pdf {
-		color: #1f60cf;
 		font-size: 50px;
 	}
 }
 
 @media screen and (max-width: 600px) {
-	.folder {
-		width: 25px;
-		height: 25px;
-		margin: 0px 10px 5px 20px;
-	}
 	.document-title {
 		font-size: 25px;
 	}
@@ -398,7 +351,6 @@ ul.timeline > li:before {
 		margin-top: 0vh;
 	}
 	.fa-file-pdf {
-		color: #1f60cf;
 		font-size: 50px;
 	}
 }

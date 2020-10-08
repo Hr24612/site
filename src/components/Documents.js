@@ -76,7 +76,12 @@ export const Documents = () => {
 					<div className='row justify-content-center'>
 						<Fade>
 							<div className='col-sm-2 col-md-2 col-lg-2 mb-3 mt-5'>
-								<a href={software} target='_blank' rel='noopener noreferrer'>
+								<a
+									href={software}
+									target='_blank'
+									rel='noopener noreferrer'
+									style={{ color: 'inherit' }}
+								>
 									<i class='fas fa-file-pdf'></i>
 								</a>
 
@@ -84,7 +89,12 @@ export const Documents = () => {
 							</div>
 							<div class='col-sm-auto'></div>
 							<div className='col-sm-2 col-md-2 col-lg-2 mb-3 mt-5'>
-								<a href={security} target='_blank' rel='noopener noreferrer'>
+								<a
+									href={security}
+									target='_blank'
+									rel='noopener noreferrer'
+									style={{ color: 'inherit' }}
+								>
 									<i class='fas fa-file-pdf'></i>
 								</a>
 
@@ -101,6 +111,7 @@ export const Documents = () => {
 									href={Recommendation1}
 									target='_blank'
 									rel='noopener noreferrer'
+									style={{ color: 'inherit' }}
 								>
 									<i class='fas fa-file-pdf'></i>
 								</a>
@@ -112,6 +123,7 @@ export const Documents = () => {
 									href={Recommendation2}
 									target='_blank'
 									rel='noopener noreferrer'
+									style={{ color: 'inherit' }}
 								>
 									<i class='fas fa-file-pdf'></i>
 								</a>
@@ -123,6 +135,7 @@ export const Documents = () => {
 									href={Recommendation3}
 									target='_blank'
 									rel='noopener noreferrer'
+									style={{ color: 'inherit' }}
 								>
 									<i class='fas fa-file-pdf'></i>
 								</a>
@@ -134,6 +147,7 @@ export const Documents = () => {
 									href={Recommendation4}
 									target='_blank'
 									rel='noopener noreferrer'
+									style={{ color: 'inherit' }}
 								>
 									<i class='fas fa-file-pdf '></i>
 								</a>

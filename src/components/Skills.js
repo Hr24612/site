@@ -59,7 +59,7 @@ export const Skills = () => {
 						<p className='skill-title'>
 							<span role='img' aria-label=''>
 								🤹🏼‍♂️
-							</span>
+							</span>{' '}
 							Skills
 						</p>
 					</div>
@@ -84,7 +84,7 @@ export const Skills = () => {
 												Web Frameworks: React.js, Angular.js, and Bootstrap,
 											</li>
 											<li>Mobile Framework: Android SDK</li>
-											<li>Language: JavaScript, Java & Kotlin</li>
+											<li>Language: JavaScript, TypeScript, Java & Kotlin</li>
 										</ul>
 									</div>
 								</div>
