@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
 import Fade from 'react-reveal/Fade';
-import briefcase from './logo/briefcase.png';
 import {
 	VerticalTimeline,
 	VerticalTimelineElement,
@@ -92,9 +91,10 @@ export default class WorkExperience extends Component {
 					<div className='workexperience row justify-content-center'>
 						<Fade>
 							<p className='work-title'>
-								{' '}
-								<img className='briefcase' src={briefcase} alt='' /> Work
-								Experiece
+								<span role='img' aria-label=''>
+									💼
+								</span>{' '}
+								Work Experiece
 							</p>
 						</Fade>
 					</div>
@@ -125,7 +125,11 @@ export default class WorkExperience extends Component {
 								</h5>
 
 								<h6 className='vertical-timeline-element-subtitle title'>
-									Manatt's Inc. &nbsp;&nbsp;&nbsp;&nbsp; <span role='img' aria-label=''>📍</span> Brooklyn, IA
+									Manatt's Inc. &nbsp;&nbsp;&nbsp;&nbsp;{' '}
+									<span role='img' aria-label=''>
+										📍
+									</span>{' '}
+									Brooklyn, IA
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
 									As a software developer, I'm helping build the company's
@@ -158,7 +162,11 @@ export default class WorkExperience extends Component {
 									Remote Application Security Internship
 								</h5>
 								<h6 className='vertical-timeline-element-subtitle title'>
-									Nelnet Inc. &nbsp;&nbsp;&nbsp;&nbsp; <span role='img' aria-label=''>📍</span> Lincoln, NE
+									Nelnet Inc. &nbsp;&nbsp;&nbsp;&nbsp;{' '}
+									<span role='img' aria-label=''>
+										📍
+									</span>{' '}
+									Lincoln, NE
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
 									I started my internship with my first project to develop a
@@ -201,7 +209,11 @@ export default class WorkExperience extends Component {
 									IT Security Analyst
 								</h5>
 								<h6 className='vertical-timeline-element-subtitle title'>
-									Iowa State University &nbsp;&nbsp;&nbsp;&nbsp; <span role='img' aria-label=''>📍</span> Ames, IA
+									Iowa State University &nbsp;&nbsp;&nbsp;&nbsp;{' '}
+									<span role='img' aria-label=''>
+										📍
+									</span>{' '}
+									Ames, IA
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
 									As a security analyst, I was responsible for performing
@@ -245,7 +257,11 @@ export default class WorkExperience extends Component {
 									IT Software Engineer Internship
 								</h5>
 								<h6 className='vertical-timeline-element-subtitle title'>
-									Spreetail Inc. &nbsp;&nbsp;&nbsp;&nbsp;<span role='img' aria-label=''>📍</span> Lincoln, NE
+									Spreetail Inc. &nbsp;&nbsp;&nbsp;&nbsp;
+									<span role='img' aria-label=''>
+										📍
+									</span>{' '}
+									Lincoln, NE
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
 									At Spreetail, I worked on the Android application used by
@@ -281,7 +297,11 @@ export default class WorkExperience extends Component {
 									IT Solution Technician
 								</h5>
 								<h6 className='vertical-timeline-element-subtitle title'>
-									Iowa State Univeristy &nbsp;&nbsp;&nbsp;&nbsp;<span role='img' aria-label=''>📍</span> Ames, IA
+									Iowa State Univeristy &nbsp;&nbsp;&nbsp;&nbsp;
+									<span role='img' aria-label=''>
+										📍
+									</span>{' '}
+									Ames, IA
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
 									As a Solution Technician, I was responsible for providing tech
@@ -323,7 +343,11 @@ export default class WorkExperience extends Component {
 									First Year Orientation Leader
 								</h5>
 								<h6 className='vertical-timeline-element-subtitle title'>
-									Iowa State University &nbsp;&nbsp;&nbsp;&nbsp;<span role='img' aria-label=''>📍</span> Ames, IA
+									Iowa State University &nbsp;&nbsp;&nbsp;&nbsp;
+									<span role='img' aria-label=''>
+										📍
+									</span>{' '}
+									Ames, IA
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
 									As a First-Year Orientation Leader, I was responsible for

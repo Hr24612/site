@@ -5,7 +5,6 @@ import Fade from 'react-reveal/Fade';
 import ieee from './logo/ieee.jpg';
 import rmcScore from './documents/RMC_FINAL_SCORE.pdf';
 import rmcLogo from './logo/rmclogo.png';
-import confidence from './logo/leadership.png';
 import {
 	VerticalTimeline,
 	VerticalTimelineElement,
@@ -105,7 +104,9 @@ export default class Leadership extends Component {
 					<div className='workexperience row justify-content-center'>
 						<Fade>
 							<p className='leadership-title'>
-								<img className='leader' src={confidence} alt='' />
+								<span role='img' aria-label=''>
+									🙋🏼‍♂️
+								</span>{' '}
 								Leadership
 							</p>
 						</Fade>

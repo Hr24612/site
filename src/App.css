@@ -20,20 +20,16 @@ body {
 }
 
 .laptop,
-.shield {
-	width: 35px;
-}
+.shield,
 .bitcoin {
-	width: 40px;
+	font-size: 23px;
 }
+
 @media screen and (min-width: 992px) {
 	.landing-title {
 		color: white;
 		font-size: 60px;
 		margin: 4%;
-	}
-	.wave {
-		width: 80px;
 	}
 	.main-text {
 		margin-top: 30vh;
@@ -49,9 +45,6 @@ body {
 	.main-text {
 		margin-top: 30vh;
 	}
-	.wave {
-		width: 80px;
-	}
 }
 
 @media screen and (max-width: 600px) {
@@ -61,10 +54,7 @@ body {
 		margin: 1.5%;
 	}
 	.main-text {
-		margin-top: 30vh;
-	}
-	.wave {
-		width: 50px;
+		margin-top: 25vh;
 	}
 }
 .interests {
@@ -415,33 +405,18 @@ ul.timeline > li:before {
 
 /* Projects */
 @media screen and (min-width: 992px) {
-	.hammer {
-		width: 35px;
-		height: 35px;
-		margin: 0px 10px 10px 20px;
-	}
 	.project-title {
 		font-size: 35px;
 	}
 }
 
 @media screen and (max-width: 992px) {
-	.hammer {
-		width: 30px;
-		height: 30px;
-		margin: 0px 1px 10px 20px;
-	}
 	.project-title {
 		font-size: 30px;
 	}
 }
 
 @media screen and (max-width: 600px) {
-	.hammer {
-		width: 25px;
-		height: 25px;
-		margin: 0px 10px 10px 20px;
-	}
 	.project-title {
 		font-size: 25px;
 	}
@@ -454,11 +429,6 @@ ul.timeline > li:before {
 /* Skills */
 
 @media screen and (min-width: 992px) {
-	.juggler {
-		width: 45px;
-		height: 45px;
-		margin: 0px 10px 10px 20px;
-	}
 	.skill-title {
 		font-size: 35px;
 	}
@@ -472,11 +442,6 @@ ul.timeline > li:before {
 }
 
 @media screen and (max-width: 992px) {
-	.juggler {
-		width: 35px;
-		height: 35px;
-		margin: 0px 1px 10px 20px;
-	}
 	.skill-title {
 		font-size: 30px;
 	}
@@ -496,16 +461,11 @@ ul.timeline > li:before {
 	}
 }
 @media screen and (max-width: 576px) {
-	.juggler {
-		width: 30px;
-		height: 30px;
-		margin: 0px 10px 10px 20px;
-	}
 	.skill-title {
 		font-size: 25px;
 	}
 	.card-deck {
-		margin-top: 5vh;
+		margin-top: 10vh;
 	}
 	.card {
 		background-color: #1d59c2;
@@ -517,24 +477,11 @@ ul.timeline > li:before {
 	margin: 4%;
 }
 
-.fa-js-square,
-.fa-node-js,
-.fa-bitcoin,
+.fa-server,
+.fa-link,
+.fa-laptop-code,
 .fa-user-shield {
 	font-size: 50px;
-}
-.fa-js-square {
-	color: #ffe53b;
-}
-.fa-node-js {
-	color: #24dd1d;
-}
-.fa-bitcoin {
-	color: #ffa620;
-}
-
-.fa-user-shield {
-	color: #fd6262;
 }
 
 #heading1 {

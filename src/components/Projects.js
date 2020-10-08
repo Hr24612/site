@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
 import Fade from 'react-reveal/Fade';
-import hammer from './logo/hammer.png';
 import {
 	VerticalTimeline,
 	VerticalTimelineElement,
@@ -98,8 +97,10 @@ export default class Projects extends Component {
 					<div className='project row justify-content-center'>
 						<Fade>
 							<p className='project-title'>
-								{' '}
-								<img className='hammer' src={hammer} alt='' /> Projects
+								<span role='img' aria-label=''>
+									🛠️
+								</span>
+								Projects
 							</p>
 						</Fade>
 					</div>

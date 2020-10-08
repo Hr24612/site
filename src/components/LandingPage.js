@@ -2,10 +2,6 @@ import React from 'react';
 import '../App.css';
 import { Fade } from 'react-reveal';
 import { Link } from 'react-router-dom';
-import shield from './logo/shield.png';
-import laptop from './logo/laptop.png';
-import bitcoin from './logo/bitcoin.png';
-import wave from './logo/waving.png';
 const LandingPage = () => {
 	return (
 		<div>
@@ -63,9 +59,10 @@ const LandingPage = () => {
 					<Fade>
 						<div className='landing-title'>
 							<p>
-								<b>
-									Hi, I'm Amir Hamza <img className='wave' src={wave} alt=''/>
-								</b>
+								Hi, I'm Amir Hamza{' '}
+								<span className='wave' role='img' aria-label=''>
+									👋🏼
+								</span>
 							</p>
 						</div>
 					</Fade>
@@ -74,30 +71,36 @@ const LandingPage = () => {
 							<div className='col col-lg-2'>
 								<Fade delay={1000}>
 									<div className='landing-title-2'>
-										<p>
+										<h5>
 											Full Stack Developer{' '}
-											<img className='laptop' src={laptop} alt=''/>
-										</p>
+											<span className='laptop' role='img' aria-label=''>
+												👨🏼‍💻
+											</span>
+										</h5>
 									</div>
 								</Fade>
 							</div>
 							<div className='col-md-auto'>
 								<Fade delay={2200}>
 									<div className='landing-title-2'>
-										<p>
+										<h5>
 											Application Security Enthusiast{' '}
-											<img className='shield' src={shield} alt=''/>
-										</p>
+											<span className='shield' role='img' aria-label=''>
+												🛡️
+											</span>
+										</h5>
 									</div>
 								</Fade>
 							</div>
 							<div className='col col-lg-2'>
-								<Fade delay={3500}>
+								<Fade delay={3200}>
 									<div className='landing-title-2'>
-										<p>
+										<h5>
 											Blockchain Advocate{' '}
-											<img className='bitcoin' src={bitcoin} alt=''/>
-										</p>
+											<span className='bitcoin' role='img' aria-label=''>
+												🔗
+											</span>
+										</h5>
 									</div>
 								</Fade>
 							</div>

@@ -2,7 +2,6 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
 import '../App.css';
-import folder from './logo/folder.png';
 import Recommendation1 from './documents/recommendation1.pdf';
 import Recommendation2 from './documents/recommendation2.pdf';
 import Recommendation3 from './documents/recommendation3.pdf';
@@ -66,7 +65,10 @@ export const Documents = () => {
 				<div className='documents row justify-content-center'>
 					<Fade>
 						<p className='document-title'>
-							<img className='folder' src={folder} alt='' /> Documents
+							<span role='img' aria-label=''>
+								📂
+							</span>{' '}
+							Documents
 						</p>
 					</Fade>
 				</div>
@@ -74,7 +76,7 @@ export const Documents = () => {
 					<div className='row justify-content-center'>
 						<Fade>
 							<div className='col-sm-2 col-md-2 col-lg-2 mb-3 mt-5'>
-								<a href={software} target='_blank' rel="noopener noreferrer">
+								<a href={software} target='_blank' rel='noopener noreferrer'>
 									<i class='fas fa-file-pdf'></i>
 								</a>
 
@@ -82,7 +84,7 @@ export const Documents = () => {
 							</div>
 							<div class='col-sm-auto'></div>
 							<div className='col-sm-2 col-md-2 col-lg-2 mb-3 mt-5'>
-								<a href={security} target='_blank' rel="noopener noreferrer">
+								<a href={security} target='_blank' rel='noopener noreferrer'>
 									<i class='fas fa-file-pdf'></i>
 								</a>
 
@@ -95,28 +97,44 @@ export const Documents = () => {
 					<div className='row '>
 						<Fade>
 							<div className='col-sm-3 col-md-3 col-lg-3 mb-3 mt-5'>
-								<a href={Recommendation1} target='_blank' rel="noopener noreferrer">
+								<a
+									href={Recommendation1}
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									<i class='fas fa-file-pdf'></i>
 								</a>
 								<p className='mt-3'>Recommendation 1</p>
 							</div>
 							<div class='col-sm-auto'></div>
 							<div className='col-sm-3 col-md-3 col-lg-3 mb-3  mt-5'>
-								<a href={Recommendation2} target='_blank' rel="noopener noreferrer">
+								<a
+									href={Recommendation2}
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									<i class='fas fa-file-pdf'></i>
 								</a>
 
 								<p className='mt-3'>Recommendation 2</p>
 							</div>
 							<div className='col-sm-3 col-md-3 col-lg-3 mb-3  mt-5'>
-								<a href={Recommendation3} target='_blank' rel="noopener noreferrer">
+								<a
+									href={Recommendation3}
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									<i class='fas fa-file-pdf'></i>
 								</a>
 								<p className='mt-3'> Recommendation 3</p>
 							</div>
 							<div class='col-sm-auto'></div>
 							<div className='col-sm-3 col-md-3 col-lg-3 mb-3 mt-5'>
-								<a href={Recommendation4} target='_blank' rel="noopener noreferrer">
+								<a
+									href={Recommendation4}
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									<i class='fas fa-file-pdf '></i>
 								</a>
 

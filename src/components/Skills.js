@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 import Fade from 'react-reveal/Fade';
-import skills from './logo/skills.png';
 import { Link } from 'react-router-dom';
 
 export const Skills = () => {
@@ -57,22 +56,23 @@ export const Skills = () => {
 			<div className=' container'>
 				<Fade>
 					<div className='skills text-center'>
-						<Fade>
-							<p className='skill-title'>
-								<img className='juggler' src={skills} alt='' /> Skills
-							</p>
-						</Fade>
+						<p className='skill-title'>
+							<span role='img' aria-label=''>
+								🤹🏼‍♂️
+							</span>
+							Skills
+						</p>
 					</div>
 				</Fade>
 
-				<div className=''>
-					<div className='card-deck '>
+				<Fade>
+					<div className='card-deck'>
 						<div className='row'>
 							<div class='card-container col-sm-12 col-md-6 col-lg-3'>
 								<div class='card-flip'>
 									<div class='front card text-center'>
 										<div className='card-body'>
-											<i class='fab fa-js-square'></i>
+											<i className='fas fa-laptop-code'></i>
 											<h6 className='card-title title2' id='heading1'>
 												Frontend Development
 											</h6>
@@ -93,7 +93,7 @@ export const Skills = () => {
 								<div class='card-flip'>
 									<div class='front card text-center'>
 										<div className='card-body'>
-											<i class='fab fa-node-js'></i>
+											<i class='fas fa-server'></i>
 											<h6 className='card-title title2' id='heading1'>
 												Backend Development
 											</h6>
@@ -113,7 +113,7 @@ export const Skills = () => {
 								<div class='card-flip'>
 									<div class='front card text-center'>
 										<div className='card-body'>
-											<i class='fab fa-bitcoin'></i>
+											<i class='fas fa-link'></i>
 											<h6 className='card-title title2' id='heading1'>
 												Blockchain Development
 											</h6>
@@ -154,7 +154,7 @@ export const Skills = () => {
 							</div>
 						</div>
 					</div>
-				</div>
+				</Fade>
 			</div>
 		</div>
 	);
