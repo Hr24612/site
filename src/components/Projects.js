@@ -294,7 +294,6 @@ export default class Projects extends Component {
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
 								className='vertical-timeline-element--education'
-								date="December'17 - May'19"
 								contentStyle={{ background: 'rgb(29, 89, 194)', color: '#fff' }}
 								contentArrowStyle={{
 									borderRight: '7px solid  rgb(29, 89, 194)',
@@ -331,7 +330,6 @@ export default class Projects extends Component {
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
 								className='vertical-timeline-element--education'
-								date="August'17 - December'17"
 								contentStyle={{
 									background: 'rgb(29, 89, 194)',
 									color: '#fff',
