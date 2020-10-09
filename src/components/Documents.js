@@ -66,7 +66,7 @@ export const Documents = () => {
 					<Fade>
 						<p className='document-title'>
 							<span role='img' aria-label=''>
-								📂
+								📋
 							</span>{' '}
 							Documents
 						</p>
@@ -82,7 +82,10 @@ export const Documents = () => {
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<i class='fas fa-file-pdf'></i>
+									<span role='img' aria-label='' className='file'>
+										{' '}
+										📄
+									</span>
 								</a>
 
 								<p className='mt-3'>Software Resume</p>
@@ -95,7 +98,10 @@ export const Documents = () => {
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<i class='fas fa-file-pdf'></i>
+									<span role='img' aria-label='' className='file'>
+										{' '}
+										📄
+									</span>
 								</a>
 
 								<p className='mt-3'>Security Resume</p>
@@ -113,7 +119,10 @@ export const Documents = () => {
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<i class='fas fa-file-pdf'></i>
+									<span role='img' aria-label='' className='file'>
+										{' '}
+										📄
+									</span>
 								</a>
 								<p className='mt-3'>Recommendation 1</p>
 							</div>
@@ -125,7 +134,10 @@ export const Documents = () => {
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<i class='fas fa-file-pdf'></i>
+									<span role='img' aria-label='' className='file'>
+										{' '}
+										📄
+									</span>
 								</a>
 
 								<p className='mt-3'>Recommendation 2</p>
@@ -137,7 +149,10 @@ export const Documents = () => {
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<i class='fas fa-file-pdf'></i>
+									<span role='img' aria-label='' className='file'>
+										{' '}
+										📄
+									</span>
 								</a>
 								<p className='mt-3'> Recommendation 3</p>
 							</div>
@@ -149,7 +164,10 @@ export const Documents = () => {
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<i class='fas fa-file-pdf '></i>
+									<span role='img' aria-label='' className='file'>
+										{' '}
+										📄
+									</span>
 								</a>
 
 								<p className='mt-3'>Recommendation 4</p>

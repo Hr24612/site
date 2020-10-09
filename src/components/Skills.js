@@ -72,7 +72,9 @@ export const Skills = () => {
 								<div class='card-flip'>
 									<div class='front card text-center'>
 										<div className='card-body'>
-											<i className='fas fa-laptop-code'></i>
+											<span role='img' aria-label='' className='paint'>
+												🎨
+											</span>
 											<h6 className='card-title title2' id='heading1'>
 												Frontend Development
 											</h6>
@@ -93,7 +95,9 @@ export const Skills = () => {
 								<div class='card-flip'>
 									<div class='front card text-center'>
 										<div className='card-body'>
-											<i class='fas fa-server'></i>
+											<span role='img' aria-label='' className='computer'>
+												🖥️
+											</span>
 											<h6 className='card-title title2' id='heading1'>
 												Backend Development
 											</h6>
@@ -113,29 +117,9 @@ export const Skills = () => {
 								<div class='card-flip'>
 									<div class='front card text-center'>
 										<div className='card-body'>
-											<i class='fas fa-link'></i>
-											<h6 className='card-title title2' id='heading1'>
-												Blockchain Development
-											</h6>
-										</div>
-									</div>
-									<div class='back card'>
-										<ul className='mt-4'>
-											<li>Blockchain: Ethereum</li>
-											<li>Language: Solidity</li>
-											<li>
-												Certification: Udacity Blockchain Developer Nano Degree
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class='card-container col-sm-12 col-md-6 col-lg-3'>
-								<div class='card-flip'>
-									<div class='front card text-center'>
-										<div className='card-body'>
-											<i class='fas fa-user-shield'></i>
-
+											<span role='img' aria-label='' className='shield2'>
+												🛡️
+											</span>
 											<h6 className='card-title title2' id='heading1'>
 												Application Security
 											</h6>
@@ -148,6 +132,29 @@ export const Skills = () => {
 												Metasploit
 											</li>
 											<li>Certification: CompTIA Security+</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class='card-container col-sm-12 col-md-6 col-lg-3'>
+								<div class='card-flip'>
+									<div class='front card text-center'>
+										<div className='card-body'>
+											<span role='img' aria-label='' className='chain2'>
+												🔗
+											</span>
+											<h6 className='card-title title2' id='heading1'>
+												Blockchain Development
+											</h6>
+										</div>
+									</div>
+									<div class='back card'>
+										<ul className='mt-4'>
+											<li>Blockchain: Ethereum</li>
+											<li>Language: Solidity</li>
+											<li>
+												Certification: Udacity Blockchain Developer Nano Degree
+											</li>
 										</ul>
 									</div>
 								</div>

@@ -19,6 +19,10 @@ body {
 	font-size: 1.2rem;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 .laptop,
 .shield,
 .bitcoin {
@@ -328,8 +332,8 @@ ul.timeline > li:before {
 	.content {
 		margin-top: 10vh;
 	}
-	.fa-file-pdf {
-		font-size: 60px;
+	.file {
+		font-size: 50px;
 	}
 }
 
@@ -340,8 +344,8 @@ ul.timeline > li:before {
 	.content {
 		margin-top: 10vh;
 	}
-	.fa-file-pdf {
-		font-size: 50px;
+	.file {
+		font-size: 40px;
 	}
 }
 
@@ -352,8 +356,8 @@ ul.timeline > li:before {
 	.content {
 		margin-top: 0vh;
 	}
-	.fa-file-pdf {
-		font-size: 50px;
+	.file {
+		font-size: 40px;
 	}
 }
 
@@ -431,10 +435,10 @@ ul.timeline > li:before {
 	margin: 4%;
 }
 
-.fa-server,
-.fa-link,
-.fa-laptop-code,
-.fa-user-shield {
+.shield2,
+.paint,
+.computer,
+.chain2 {
 	font-size: 50px;
 }
 
