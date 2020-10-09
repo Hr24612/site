@@ -105,7 +105,7 @@ export default class Leadership extends Component {
 						<Fade>
 							<p className='leadership-title'>
 								<span role='img' aria-label=''>
-									🙋🏼‍♂️
+									🙋🏻‍♂️
 								</span>{' '}
 								Leadership
 							</p>

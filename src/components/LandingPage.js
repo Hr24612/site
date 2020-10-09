@@ -70,11 +70,11 @@ const LandingPage = () => {
 						<div className='row justify-content-md-center'>
 							<div className='col col-lg-2'>
 								<Fade delay={1000}>
-									<div className='landing-title-2'>
-										<h5>
+									<div>
+										<h5 className='landing-title-2'>
 											Full Stack Developer{' '}
 											<span className='laptop' role='img' aria-label=''>
-												👨🏼‍💻
+												👨🏻‍💻
 											</span>
 										</h5>
 									</div>
@@ -82,8 +82,8 @@ const LandingPage = () => {
 							</div>
 							<div className='col-md-auto'>
 								<Fade delay={2200}>
-									<div className='landing-title-2'>
-										<h5>
+									<div>
+										<h5 className='landing-title-2'>
 											Application Security Enthusiast{' '}
 											<span className='shield' role='img' aria-label=''>
 												🛡️
@@ -94,8 +94,8 @@ const LandingPage = () => {
 							</div>
 							<div className='col col-lg-2'>
 								<Fade delay={3200}>
-									<div className='landing-title-2'>
-										<h5>
+									<div>
+										<h5 className='landing-title-2'>
 											Blockchain Advocate{' '}
 											<span className='bitcoin' role='img' aria-label=''>
 												🔗
