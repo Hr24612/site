@@ -13,12 +13,12 @@ function App() {
 			<Router>
 				<Switch>
 					<Route exact path='/' component={LandingPage} />
-					<Route exact path='/Leadership' component={Leadership} />
-					<Route exact path='/WorkExperience' component={WorkExperience} />
-					<Route exact path='/Projects' component={Projects} />
-					<Route exact path='/Documents' component={Documents} />
-					<Route exact path='/Skills' component={Skills} />
-					<Route exact path='/AboutMe' component={AboutMe} />
+					<Route exact path='/leadership' component={Leadership} />
+					<Route exact path='/workExperience' component={WorkExperience} />
+					<Route exact path='/projects' component={Projects} />
+					<Route exact path='/documents' component={Documents} />
+					<Route exact path='/skills' component={Skills} />
+					<Route exact path='/about' component={AboutMe} />
 				</Switch>
 			</Router>
 		</Fragment>

@@ -11,7 +11,7 @@ body {
 }
 
 .x:hover {
-	color: #7e7e7e;
+	color: rgb(29, 89, 194);
 }
 
 .x {
@@ -103,52 +103,38 @@ a:hover {
 	}
 }
 .fa-linkedin {
-	background: #3c5a99;
 	color: white;
-	padding: 7px;
 	font-size: 30px;
-	width: 50px;
 	text-align: center;
 	text-decoration: none;
 	margin: 10px;
-	border-radius: 30px;
 }
-.fa-github {
-	/* color: white;
-	background: #303030; */
-	/* padding: 7px; */
-	font-size: 29.5px;
-	/* width: 50px; */
-	/* text-align: center;
-	text-decoration: none; */
-
-	/* border-radius: 30px; */
+#github2 {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 10px;
 }
 
 .fa-envelope {
 	color: white;
-	background: #0db887;
-	padding: 7px;
 	font-size: 30px;
-	width: 50px;
 	text-align: center;
 	text-decoration: none;
 	margin: 10px;
-	border-radius: 30px;
 }
 
-.fa-github:hover {
-	color: #7e7e7e;
+#github2:hover {
+	color: rgb(29, 89, 194);
 }
 
 .fa-linkedin:hover {
-	color: #3c5a99;
-	background: white;
+	color: rgb(29, 89, 194);
 }
 
 .fa-envelope:hover {
-	color: #0db887;
-	background: white;
+	color: rgb(29, 89, 194);
 }
 
 .d-flex {
@@ -269,7 +255,8 @@ ul.timeline > li:before {
 .Leadership,
 .Project,
 .Documents,
-.Skills {
+.Skills,
+.About {
 	background-color: black;
 	color: white;
 	width: 100%;
@@ -384,6 +371,9 @@ ul.timeline > li:before {
 	margin: 4%;
 }
 
+#github {
+	font-size: 29px;
+}
 /* Skills */
 
 @media screen and (min-width: 992px) {
@@ -476,6 +466,8 @@ ul.timeline > li:before {
 .card-container:hover .card-flip {
 	transform: rotateY(180deg);
 }
+
+/* About */
 
 /* .title-paragraph {
 	font-size: 20px;

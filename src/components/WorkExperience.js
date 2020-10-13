@@ -59,28 +59,33 @@ export default class WorkExperience extends Component {
 									</Link>
 								</div>
 								<div className='nav-item'>
-									<Link NavLink to='/WorkExperience'>
+									<Link NavLink to='/about'>
+										<button className='btn x'>About</button>
+									</Link>
+								</div>
+								<div className='nav-item'>
+									<Link NavLink to='/skills'>
+										<button className='btn x'>Skills</button>
+									</Link>
+								</div>
+								<div className='nav-item'>
+									<Link NavLink to='/workExperience'>
 										<button className='btn x'>Work Experience</button>
 									</Link>
 								</div>
 								<div className='nav-item'>
-									<Link NavLink to='/Leadership'>
+									<Link NavLink to='/leadership'>
 										<button className='btn x'>Leadership</button>
 									</Link>
 								</div>
 								<div className='nav-item'>
-									<Link NavLink to='/Projects'>
+									<Link NavLink to='/projects'>
 										<button className='btn x'>Projects</button>
 									</Link>
 								</div>
 								<div className='nav-item'>
-									<Link NavLink to='/Documents'>
+									<Link NavLink to='/documents'>
 										<button className='btn x'>Documents</button>
-									</Link>
-								</div>
-								<div className='nav-item'>
-									<Link NavLink to='/Skills'>
-										<button className='btn x'>Skills</button>
 									</Link>
 								</div>
 							</ul>
