@@ -73,7 +73,7 @@ export default class About extends Component {
 						</Fade>
 					</div>
 
-					<div class=' p-5'>
+					<div class=' p-3'>
 						<Fade>
 							<p>
 								My name is Amir, and I am an international student from Pakistan{' '}
