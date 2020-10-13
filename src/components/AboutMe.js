@@ -78,7 +78,10 @@ export default class About extends Component {
 							<p>
 								My name is Amir, and I am an international student from Pakistan{' '}
 								<img src={flag} alt='' />. I am currently studying computer
-								engineering at Iowa State University, and I plan to graduate🎓
+								engineering at Iowa State University, and I plan to graduate
+								<span role='img' aria-label=''>
+									🎓
+								</span>
 								in May 2021. My passions include work, relationships, and
 								travel. Work gives meaning to my life and keeps me going through
 								the day. Relationships motivate me to work harder and do a
@@ -95,7 +98,10 @@ export default class About extends Component {
 								post-graduation.
 							</p>
 							<p>
-								👇🏼 If you would like to connect, please follow the links below.
+								<span role='img' aria-label=''>
+									👇🏼
+								</span>{' '}
+								If you would like to connect, please follow the links below.
 							</p>
 							<div id='socialMedia' className='text-center  pt-5'>
 								<div className='row text-center'>
