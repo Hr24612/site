@@ -73,11 +73,11 @@ export default class About extends Component {
 						</Fade>
 					</div>
 
-					<div class=' p-3'>
+					<div class='about-text p-3'>
 						<Fade>
 							<p>
 								My name is Amir, and I am an international student from Pakistan{' '}
-								<img src={flag} alt='' />. I am currently studying computer
+								<img src={flag} alt='' className='flag'/>. I am currently studying computer
 								engineering at Iowa State University, and I plan to graduate
 								<span role='img' aria-label=''>
 									🎓

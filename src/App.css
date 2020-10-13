@@ -469,6 +469,13 @@ ul.timeline > li:before {
 
 /* About */
 
+.flag {
+	width: 20px;
+}
+
+.about-text {
+	font-size: 17px;
+}
 /* .title-paragraph {
 	font-size: 20px;
 } */
