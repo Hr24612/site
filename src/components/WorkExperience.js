@@ -142,6 +142,7 @@ export default class WorkExperience extends Component {
 									.NET. My daily routine at Manatt's includes working with the
 									product owner to understand requirements, developing new
 									features, fixing existing bugs, and performing code reviews.
+									
 								</p>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
