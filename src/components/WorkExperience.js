@@ -141,13 +141,9 @@ export default class WorkExperience extends Component {
 									Manatt's, Inc. is a construction company based in Brooklyn,
 									Iowa. As a software developer, I'm helping build the
 									company's...{' '}
-									<Link
-										NavLink
-										to='/workexperience/manatts'
-										className='read-more'
-									>
+									<a href='/workexperience/manatts' className='read-more'>
 										read more
-									</Link>
+									</a>
 								</p>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
@@ -183,13 +179,13 @@ export default class WorkExperience extends Component {
 									Nelnet is a financial services provider heaquartederd at
 									Lincoln, Nebrasks. It specializes in, private and federal
 									student loans...{' '}
-									<Link
+									<a
 										NavLink
-										to='/workexperience/nelnet'
+										href='/workexperience/nelnet'
 										className='read-more'
 									>
 										read more
-									</Link>
+									</a>
 								</p>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
@@ -222,13 +218,9 @@ export default class WorkExperience extends Component {
 									As a security analyst for my University, I was responsible for
 									performing penetration testing of websites managed by
 									different...{' '}
-									<Link
-										NavLink
-										to='/workexperience/it-security'
-										className='read-more'
-									>
+									<a href='/workexperience/it-security' className='read-more'>
 										read more
-									</Link>
+									</a>
 								</p>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
@@ -264,13 +256,9 @@ export default class WorkExperience extends Component {
 									The Spreetail internship was my first professional work
 									experience off-campus. Spreetail is an E-Commerce company
 									based...{' '}
-									<Link
-										NavLink
-										to='/workexperience/spreetail'
-										className='read-more'
-									>
+									<a href='/workexperience/spreetail' className='read-more'>
 										read mode
-									</Link>
+									</a>
 								</p>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
@@ -303,13 +291,9 @@ export default class WorkExperience extends Component {
 									As a Solution Technician, I was responsible for providing tech
 									support to 36,000 students, faculty, and staff at Iowa State
 									University. I...{' '}
-									<Link
-										NavLink
-										to='/workexperience/it-solution'
-										className='read-more'
-									>
+									<a href='/workexperience/it-solution' className='read-more'>
 										read mode
-									</Link>
+									</a>
 								</p>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
@@ -345,9 +329,9 @@ export default class WorkExperience extends Component {
 									As a First-Year Orientation Leader, I was responsible for
 									teaching University Studies 110 course. This is a mandatory
 									course for all...{' '}
-									<Link NavLink to='/workexperience/ifye' className='read-more'>
+									<a href='/workexperience/ifye' className='read-more'>
 										read mode
-									</Link>
+									</a>
 								</p>
 							</VerticalTimelineElement>
 						</VerticalTimeline>

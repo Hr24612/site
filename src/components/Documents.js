@@ -6,8 +6,8 @@ import Recommendation1 from './documents/recommendation1.pdf';
 import Recommendation2 from './documents/recommendation2.pdf';
 import Recommendation3 from './documents/recommendation3.pdf';
 import Recommendation4 from './documents/recommendation4.pdf';
-import software from './documents/SoftwareResume2020.pdf';
-import security from './documents/SecurityResume2020.pdf';
+import software from './documents/AmirHamza-SoftwareResume2020.pdf';
+import security from './documents/AmirHamza-SecurityResume2020.pdf';
 
 export const Documents = () => {
 	return (
