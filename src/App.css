@@ -5,6 +5,18 @@ body {
 	background-color: black;
 }
 
+/* Global Style */
+
+a:hover {
+	text-decoration: none;
+}
+
+a.read-more {
+	color: rgba(255, 255, 255, 0.5);
+}
+a.read-more:hover {
+	color: rgba(255, 255, 255);
+}
 /* Landing Page */
 #landing {
 	background-color: black;
@@ -17,10 +29,6 @@ body {
 .x {
 	color: white;
 	font-size: 1.2rem;
-}
-
-a:hover {
-	text-decoration: none;
 }
 
 .laptop,
@@ -207,17 +215,89 @@ a:hover {
 	.work-title {
 		font-size: 35px;
 	}
+	.manatts-tools {
+		width: 500px;
+	}
+	.manatts-logo {
+		width: 250px;
+	}
+	.nelnet-tools {
+		width: 650px;
+	}
+	.nelnet-logo {
+		width: 250px;
+	}
+	.it-tools {
+		width: 200px;
+	}
+	.it-logo {
+		width: 300px;
+	}
+	.spreetail-tools {
+		width: 300px;
+	}
+	.spreetail-logo {
+		width: 270px;
+	}
 }
 
 @media screen and (max-width: 992px) {
 	.work-title {
 		font-size: 30px;
 	}
+	.manatts-tools {
+		width: 350px;
+	}
+	.manatts-logo {
+		width: 200px;
+	}
+	.nelnet-tools {
+		width: 500px;
+	}
+	.nelnet-logo {
+		width: 200px;
+	}
+	.it-tools {
+		width: 150px;
+	}
+	.it-logo {
+		width: 300px;
+	}
+	.spreetail-tools {
+		width: 250px;
+	}
+	.spreetail-logo {
+		width: 250px;
+	}
 }
 
 @media screen and (max-width: 600px) {
 	.work-title {
 		font-size: 25px;
+	}
+	.manatts-tools {
+		width: 320px;
+	}
+	.manatts-logo {
+		width: 150px;
+	}
+	.nelnet-tools {
+		width: 330px;
+	}
+	.nelnet-logo {
+		width: 150px;
+	}
+	.it-tools {
+		width: 130px;
+	}
+	.it-logo {
+		width: 200px;
+	}
+	.spreetail-tools {
+		width: 200px;
+	}
+	.spreetail-logo {
+		width: 200px;
 	}
 }
 

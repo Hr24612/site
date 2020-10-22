@@ -13,7 +13,7 @@ export const Documents = () => {
 	return (
 		<div className='Documents'>
 			<div className='nav'>
-				<nav class='navbar navbar-expand-lg  navbar1 navbar-dark'>
+				<nav className='navbar navbar-expand-lg  navbar1 navbar-dark'>
 					<button
 						class='navbar-toggler mt-2'
 						type='button'
@@ -25,8 +25,8 @@ export const Documents = () => {
 					>
 						<span class='navbar-toggler-icon'></span>
 					</button>
-					<div class='collapse navbar-collapse pt-3' id='navbarNav'>
-						<ul class='navbar-nav'>
+					<div className='collapse navbar-collapse pt-3' id='navbarNav'>
+						<ul className='navbar-nav'>
 							<div className='nav-item '>
 								<Link NavLink to='/'>
 									<button className='btn x'>Home</button>

@@ -26,17 +26,11 @@ export default class Projects extends Component {
 		}
 	}
 
-	/**
-	 * Add event listener
-	 */
 	componentDidMount() {
 		this.updateDimensions();
 		window.addEventListener('resize', this.updateDimensions.bind(this));
 	}
 
-	/**
-	 * Remove event listener
-	 */
 	componentWillUnmount() {
 		window.removeEventListener('resize', this.updateDimensions.bind(this));
 	}
@@ -45,9 +39,9 @@ export default class Projects extends Component {
 		return (
 			<div className='Project'>
 				<div className='nav'>
-					<nav class='navbar navbar-expand-lg  navbar1 navbar-dark'>
+					<nav className='navbar navbar-expand-lg  navbar1 navbar-dark'>
 						<button
-							class='navbar-toggler mt-2'
+							className='navbar-toggler mt-2'
 							type='button'
 							data-toggle='collapse'
 							data-target='#navbarNav'
@@ -55,10 +49,10 @@ export default class Projects extends Component {
 							aria-expanded='false'
 							aria-label='Toggle navigation'
 						>
-							<span class='navbar-toggler-icon'></span>
+							<span className='navbar-toggler-icon'></span>
 						</button>
-						<div class='collapse navbar-collapse pt-3' id='navbarNav'>
-							<ul class='navbar-nav'>
+						<div className='collapse navbar-collapse pt-3' id='navbarNav'>
+							<ul className='navbar-nav'>
 								<div className='nav-item '>
 									<Link NavLink to='/'>
 										<button className='btn x'>Home</button>
@@ -75,7 +69,7 @@ export default class Projects extends Component {
 									</Link>
 								</div>
 								<div className='nav-item'>
-									<Link NavLink to='/workExperience'>
+									<Link NavLink to='/workexperience'>
 										<button className='btn x'>Work Experience</button>
 									</Link>
 								</div>
@@ -110,7 +104,7 @@ export default class Projects extends Component {
 						</Fade>
 					</div>
 
-					<div class='row'>
+					<div className='row'>
 						<VerticalTimeline>
 							<VerticalTimelineElement
 								className='vertical-timeline-element--work'
@@ -131,7 +125,7 @@ export default class Projects extends Component {
 								}}
 								icon={
 									///a href='' target='_blank'>
-									<i class='fab fa-github' id='github'></i>
+									<i className='fab fa-github' id='github'></i>
 									//</a>
 								}
 							>
@@ -188,7 +182,7 @@ export default class Projects extends Component {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										<i class='fab fa-github' id='github'></i>
+										<i className='fab fa-github' id='github'></i>
 									</a>
 								}
 							>
@@ -225,7 +219,7 @@ export default class Projects extends Component {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										<i class='fab fa-github' id='github'></i>
+										<i className='fab fa-github' id='github'></i>
 									</a>
 								}
 							>
@@ -264,7 +258,7 @@ export default class Projects extends Component {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										<i class='fab fa-github' id='github'></i>
+										<i className='fab fa-github' id='github'></i>
 									</a>
 								}
 							>
@@ -317,7 +311,7 @@ export default class Projects extends Component {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										<i class='fab fa-github' id='github'></i>
+										<i className='fab fa-github' id='github'></i>
 									</a>
 								}
 							>
@@ -356,7 +350,7 @@ export default class Projects extends Component {
 										target='_blank'
 										rel='noopener noreferrer'
 									>
-										<i class='fab fa-github' id='github'></i>
+										<i className='fab fa-github' id='github'></i>
 									</a>
 								}
 							>

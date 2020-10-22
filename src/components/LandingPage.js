@@ -6,9 +6,9 @@ const LandingPage = () => {
 	return (
 		<div>
 			<div id='landing'>
-				<nav class='navbar navbar-expand-lg  navbar1 navbar-dark'>
+				<nav className='navbar navbar-expand-lg  navbar1 navbar-dark'>
 					<button
-						class='navbar-toggler mt-2'
+						className='navbar-toggler mt-2'
 						type='button'
 						data-toggle='collapse'
 						data-target='#navbarNav'
@@ -16,10 +16,10 @@ const LandingPage = () => {
 						aria-expanded='false'
 						aria-label='Toggle navigation'
 					>
-						<span class='navbar-toggler-icon'></span>
+						<span className='navbar-toggler-icon'></span>
 					</button>
-					<div class='collapse navbar-collapse pt-3' id='navbarNav'>
-						<ul class='navbar-nav'>
+					<div className='collapse navbar-collapse pt-3' id='navbarNav'>
+						<ul className='navbar-nav'>
 							<div className='nav-item '>
 								<Link NavLink to='/'>
 									<button className='btn x'>Home</button>
@@ -36,7 +36,7 @@ const LandingPage = () => {
 								</Link>
 							</div>
 							<div className='nav-item'>
-								<Link NavLink to='/workExperience'>
+								<Link NavLink to='/workexperience'>
 									<button className='btn x'>Work Experience</button>
 								</Link>
 							</div>
@@ -112,34 +112,6 @@ const LandingPage = () => {
 						</div>
 					</div>
 				</div>
-
-				{/* <div id='socialMedia' className='text-center'>
-								<div className='row text-center'>
-									<form
-										action='https://www.linkedin.com/in/amir-hamza-324495126'
-										target='_blank'
-										className='col-4'
-									>
-										<button class='btn fab fa-linkedin'></button>
-									</form>
-									<form
-										action='https://github.com/Hr24612'
-										target='_blank'
-										className='col-4'
-									>
-										<button class='btn fab fa-github'></button>
-									</form>
-									<form
-										action='mailto:amir.col6@gmail.com'
-										target='_blank'
-										className='col-4'
-									>
-										<button class='btn fas fa-envelope'></button>
-									</form>
-								</div>
-							</div> */}
-				{/* <a href='#Skills' class='scroll-down' address='true'></a>
-			<div id='Skills'></div> */}
 			</div>
 		</div>
 	);

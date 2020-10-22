@@ -52,9 +52,9 @@ export default class Leadership extends Component {
 		return (
 			<div className='Leadership'>
 				<div className='nav'>
-					<nav class='navbar navbar-expand-lg navbar1 navbar-dark'>
+					<nav className='navbar navbar-expand-lg navbar1 navbar-dark'>
 						<button
-							class='navbar-toggler mt-2'
+							className='navbar-toggler mt-2'
 							type='button'
 							data-toggle='collapse'
 							data-target='#navbarNav'
@@ -62,10 +62,10 @@ export default class Leadership extends Component {
 							aria-expanded='false'
 							aria-label='Toggle navigation'
 						>
-							<span class='navbar-toggler-icon'></span>
+							<span className='navbar-toggler-icon'></span>
 						</button>
-						<div class='collapse navbar-collapse pt-3' id='navbarNav'>
-							<ul class='navbar-nav'>
+						<div className='collapse navbar-collapse pt-3' id='navbarNav'>
+							<ul className='navbar-nav'>
 								<div className='nav-item '>
 									<Link NavLink to='/'>
 										<button className='btn x'>Home</button>
@@ -82,7 +82,7 @@ export default class Leadership extends Component {
 									</Link>
 								</div>
 								<div className='nav-item'>
-									<Link NavLink to='/workExperience'>
+									<Link NavLink to='/workexperience'>
 										<button className='btn x'>Work Experience</button>
 									</Link>
 								</div>
@@ -117,7 +117,7 @@ export default class Leadership extends Component {
 						</Fade>
 					</div>
 
-					<div class='row'>
+					<div className='row'>
 						<VerticalTimeline layout={'1-column'}>
 							<VerticalTimelineElement
 								className='vertical-timeline-element--work'

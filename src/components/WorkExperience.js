@@ -7,6 +7,7 @@ import {
 	VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+
 export default class WorkExperience extends Component {
 	constructor() {
 		super();
@@ -39,9 +40,9 @@ export default class WorkExperience extends Component {
 		return (
 			<div className='WorkExperience'>
 				<div className='nav'>
-					<nav class='navbar navbar-expand-lg  navbar1 navbar-dark'>
+					<nav className='navbar navbar-expand-lg  navbar1 navbar-dark'>
 						<button
-							class='navbar-toggler mt-2'
+							className='navbar-toggler mt-2'
 							type='button'
 							data-toggle='collapse'
 							data-target='#navbarNav'
@@ -49,10 +50,10 @@ export default class WorkExperience extends Component {
 							aria-expanded='false'
 							aria-label='Toggle navigation'
 						>
-							<span class='navbar-toggler-icon'></span>
+							<span className='navbar-toggler-icon'></span>
 						</button>
-						<div class='collapse navbar-collapse pt-3' id='navbarNav'>
-							<ul class='navbar-nav'>
+						<div className='collapse navbar-collapse pt-3' id='navbarNav'>
+							<ul className='navbar-nav'>
 								<div className='nav-item '>
 									<Link NavLink to='/'>
 										<button className='btn x'>Home</button>
@@ -69,7 +70,7 @@ export default class WorkExperience extends Component {
 									</Link>
 								</div>
 								<div className='nav-item'>
-									<Link NavLink to='/workExperience'>
+									<Link NavLink to='/workexperience'>
 										<button className='btn x'>Work Experience</button>
 									</Link>
 								</div>
@@ -104,7 +105,7 @@ export default class WorkExperience extends Component {
 						</Fade>
 					</div>
 
-					<div class='row'>
+					<div className='row'>
 						<VerticalTimeline>
 							<VerticalTimelineElement
 								className='vertical-timeline-element--work'
@@ -137,12 +138,16 @@ export default class WorkExperience extends Component {
 									Brooklyn, IA
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
-									As a software developer, I'm helping build the company's
-									internal financial and accounting tools in Angular.js and
-									.NET. My daily routine at Manatt's includes working with the
-									product owner to understand requirements, developing new
-									features, fixing existing bugs, and performing code reviews.
-									
+									Manatt's, Inc. is a construction company based in Brooklyn,
+									Iowa. As a software developer, I'm helping build the
+									company's...{' '}
+									<Link
+										NavLink
+										to='/workexperience/manatts'
+										className='read-more'
+									>
+										read more
+									</Link>
 								</p>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
@@ -175,24 +180,16 @@ export default class WorkExperience extends Component {
 									Lincoln, NE
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
-									I started my internship with my first project to develop a
-									malware in C# language that bypassed antivirus detection. The
-									project's end goal was to be used to target Nelnet's servers
-									and employees by penetration testers to bypass existing
-									security controls. This would help uncover existing security
-									vulnerabilities before a cyber attacker finds out.
-								</p>
-								<p style={{ fontSize: this.state.fontSize }}>
-									My second project was to carry out web penetration testing for
-									a company's internal financial tool. I was able to find
-									critical vulnerabilities by using a web vulnerability scanner
-									called Burp Suite. After a successful engagement, I worked
-									with the rest of my team to develop a report that explained
-									the vulnerabilities found and stated the likelihood and impact
-									for each. In addition to that, my team and I performed quality
-									and assurance of the codebase and contributed to DevSecOps
-									initiatives through building and integration of units tests
-									into build pipelines.
+									Nelnet is a financial services provider heaquartederd at
+									Lincoln, Nebrasks. It specializes in, private and federal
+									student loans...{' '}
+									<Link
+										NavLink
+										to='/workexperience/nelnet'
+										className='read-more'
+									>
+										read more
+									</Link>
 								</p>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
@@ -222,22 +219,16 @@ export default class WorkExperience extends Component {
 									Ames, IA
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
-									As a security analyst, I was responsible for performing
-									penetration testing of websites managed by different campus
-									departments. I used Burp Suite, a web vulnerability scanner,
-									to find vulnerabilities like SQL injection, remote code
-									execution, and cross-site scripting. Before I left for my
-									internship at Nelnet, I was able to scan more than 300
-									websites and addressed critical findings in my scan reports.
-									In addition to web penetration, I was responsible for
-									providing code reviews and best practices to developers to
-									help write secure code
-								</p>
-								<p style={{ fontSize: this.state.fontSize }}>
-									This position was my entry into the field of application
-									security. It not only taught me the core concepts of web
-									security but also showed me how easy it is to break into a web
-									application.
+									As a security analyst for my University, I was responsible for
+									performing penetration testing of websites managed by
+									different...{' '}
+									<Link
+										NavLink
+										to='/workexperience/it-security'
+										className='read-more'
+									>
+										read more
+									</Link>
 								</p>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
@@ -270,17 +261,16 @@ export default class WorkExperience extends Component {
 									Lincoln, NE
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
-									At Spreetail, I worked on the Android application used by
-									Spreetail's warehouse workers to track shipments. I worked
-									with UX Engineers to create and add custom UI features to the
-									app. This helped remove the dependency on third-party UI
-									elements previously used by the app. One of the significant
-									changes taking place was moving away from Java to Kotlin as
-									the primary language of choice. I helped the team in this
-									undertaking to accelerate the transition. Moreover, I also
-									contributed to a few internal ongoing web IT projects in
-									Node.js and React.js. This was my first internship during
-									college, and it was a great learning experience.
+									The Spreetail internship was my first professional work
+									experience off-campus. Spreetail is an E-Commerce company
+									based...{' '}
+									<Link
+										NavLink
+										to='/workexperience/spreetail'
+										className='read-more'
+									>
+										read mode
+									</Link>
 								</p>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
@@ -312,18 +302,14 @@ export default class WorkExperience extends Component {
 								<p style={{ fontSize: this.state.fontSize }}>
 									As a Solution Technician, I was responsible for providing tech
 									support to 36,000 students, faculty, and staff at Iowa State
-									University. I became a Subject Matter Expert (SME) for the
-									following platforms: Qualtrics, Zoom, Adobe, Box, VMware
-									Horizon, Splunk, Canvas, Okta, and Confluence. I was the
-									person in charge of providing support to customers in the
-									areas I was an SME in.
-								</p>
-								<p style={{ fontSize: this.state.fontSize }}>
-									After eight months into this role, I was promoted to the team
-									lead position. As a team lead, I was responsible for
-									overseeing 60 IT Solution Technicians and providing training
-									to new hires. This was my first technical job, and my start in
-									the field of information technology.
+									University. I...{' '}
+									<Link
+										NavLink
+										to='/workexperience/it-solution'
+										className='read-more'
+									>
+										read mode
+									</Link>
 								</p>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
@@ -358,12 +344,10 @@ export default class WorkExperience extends Component {
 								<p style={{ fontSize: this.state.fontSize }}>
 									As a First-Year Orientation Leader, I was responsible for
 									teaching University Studies 110 course. This is a mandatory
-									course for all international students who arrive at Iowa State
-									University. This course aims to teach students about US laws,
-									cultural norms and introduce them to useful campus resources.
-									I was responsible for leading three weekly classes, where I
-									taught 60 students in total. I graded homework assignments and
-									student presentations.
+									course for all...{' '}
+									<Link NavLink to='/workexperience/ifye' className='read-more'>
+										read mode
+									</Link>
 								</p>
 							</VerticalTimelineElement>
 						</VerticalTimeline>
