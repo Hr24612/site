@@ -12,10 +12,10 @@ import Nelnet from './components/work-experience/nelnet';
 import itSecurity from './components/work-experience/it-security';
 import Spreetail from './components/work-experience/spreetail';
 import itSolution from './components/work-experience/it-solution';
-import IFYE from './components/work-experience/ifye';
-import CSM from './components/leadership/csm';
-import DIS from './components/leadership/dis';
-import IEEE from './components/leadership/ieee';
+import Ifye from './components/work-experience/ifye';
+import Csm from './components/leadership/csm';
+import Dis from './components/leadership/dis';
+import Ieee from './components/leadership/ieee';
 import Outreach from './components/leadership/outreach';
 
 function App() {
@@ -25,9 +25,9 @@ function App() {
 				<Switch>
 					<Route exact path='/' component={LandingPage} />
 					<Route exact path='/leadership' component={Leadership} />
-					<Route exact path='/leadership/csm' component={CSM} />
-					<Route exact path='/leadership/dis' component={DIS} />
-					<Route exact path='/leadership/ieee' component={IEEE} />
+					<Route exact path='/leadership/csm' component={Csm} />
+					<Route exact path='/leadership/dis' component={Dis} />
+					<Route exact path='/leadership/ieee' component={Ieee} />
 					<Route exact path='/leadership/outreach' component={Outreach} />
 
 					<Route exact path='/workexperience' component={WorkExperience} />
@@ -44,7 +44,7 @@ function App() {
 						path='/workexperience/it-solution'
 						component={itSolution}
 					/>
-					<Route exact path='/workexperience/ifye' component={IFYE} />
+					<Route exact path='/workexperience/ifye' component={Ifye} />
 					<Route exact path='/projects' component={Projects} />
 					<Route exact path='/documents' component={Documents} />
 					<Route exact path='/skills' component={Skills} />
