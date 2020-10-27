@@ -139,7 +139,7 @@ export default class Leadership extends Component {
 												href='https://www.stuorg.iastate.edu/site/spacemining'
 												target='_blank'
 												rel='noopener noreferrer'
-												className='links'
+												className='links2'
 											>
 												Cardinal Space Mining Club
 											</a>
@@ -180,7 +180,7 @@ export default class Leadership extends Component {
 										href='http://www.ieee.stuorg.iastate.edu/'
 										target='_blank'
 										rel='noopener noreferrer'
-										className='links'
+										className='links2'
 									>
 										IEEE Stundet Branch
 									</a>
@@ -191,42 +191,6 @@ export default class Leadership extends Component {
 									is a student-run club for the Electrical and Computer
 									Engineering...{' '}
 									<a href='/leadership/ieee' className='read-more'>
-										read more
-									</a>
-								</p>
-							</VerticalTimelineElement>
-							<VerticalTimelineElement
-								className='vertical-timeline-element--work'
-								date="August'17"
-								contentStyle={{ background: 'rgb(29, 89, 194)', color: '#fff' }}
-								contentArrowStyle={{
-									borderRight: '7px solid  rgb(29, 89, 194)',
-								}}
-								iconStyle={{
-									background: 'rgb(29, 89, 194)',
-									color: '#fff',
-									width: '20px',
-									height: '20px',
-									marginLeft: this.state.left,
-									marginTop: this.state.margin,
-								}}
-							>
-								<h5 className='title'>
-									Team Leader -{' '}
-									<a
-										href='https://www.admissions.iastate.edu/destination/'
-										target='_blank'
-										rel='noopener noreferrer'
-										className='links'
-									>
-										Destination Iowa State
-									</a>
-								</h5>
-								<p style={{ fontSize: this.state.fontSize }}>
-									Destination Iowa State is a three-day orientation event that
-									is organized for first-year students. Each team leader is
-									assigned...{' '}
-									<a href='/leadership/dis' className='read-more'>
 										read more
 									</a>
 								</p>
@@ -256,7 +220,7 @@ export default class Leadership extends Component {
 										href='https://isso.dso.iastate.edu/'
 										target='_blank'
 										rel='noopener noreferrer'
-										className='links'
+										className='links2'
 									>
 										International Students and Scholars Office
 									</a>
@@ -266,6 +230,42 @@ export default class Leadership extends Component {
 									scholars office (ISSO), I was given the responsibility to
 									reach...{' '}
 									<a href='/leadership/outreach' className='read-more'>
+										read more
+									</a>
+								</p>
+							</VerticalTimelineElement>
+							<VerticalTimelineElement
+								className='vertical-timeline-element--work'
+								date="August'17"
+								contentStyle={{ background: 'rgb(29, 89, 194)', color: '#fff' }}
+								contentArrowStyle={{
+									borderRight: '7px solid  rgb(29, 89, 194)',
+								}}
+								iconStyle={{
+									background: 'rgb(29, 89, 194)',
+									color: '#fff',
+									width: '20px',
+									height: '20px',
+									marginLeft: this.state.left,
+									marginTop: this.state.margin,
+								}}
+							>
+								<h5 className='title'>
+									Team Leader -{' '}
+									<a
+										href='https://www.admissions.iastate.edu/destination/'
+										target='_blank'
+										rel='noopener noreferrer'
+										className='links2'
+									>
+										Destination Iowa State
+									</a>
+								</h5>
+								<p style={{ fontSize: this.state.fontSize }}>
+									Destination Iowa State is a three-day orientation event that
+									is organized for first-year students. Each team leader is
+									assigned...{' '}
+									<a href='/leadership/dis' className='read-more'>
 										read more
 									</a>
 								</p>

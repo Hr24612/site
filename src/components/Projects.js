@@ -149,7 +149,7 @@ export default class Projects extends Component {
 									</span>
 									&nbsp;
 									<a
-										className='links'
+										className='links2'
 										href='https://sddec20-10.sd.ece.iastate.edu/'
 										target='_blank'
 										rel='noopener noreferrer'
@@ -281,7 +281,7 @@ export default class Projects extends Component {
 									</span>
 									&nbsp;
 									<a
-										className='links'
+										className='links2'
 										href='https://en.wikipedia.org/wiki/Electronic_paper'
 										target='_blank'
 										rel='noopener noreferrer'
@@ -370,9 +370,14 @@ export default class Projects extends Component {
 										👉🏼
 									</span>
 									<i>
-										<a href='https://www.youtube.com/watch?v=K8z7e1BPxvA'>
+										<a
+											href='https://www.youtube.com/watch?v=K8z7e1BPxvA'
+											target='_blank'
+											rel='noopener noreferrer'
+											className='links2'
+										>
 											Video
-										</a>{' '}
+										</a>
 									</i>{' '}
 									&nbsp;for a live demo
 								</p>

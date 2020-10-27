@@ -131,7 +131,15 @@ export default class WorkExperience extends Component {
 								</h5>
 
 								<h6 className='vertical-timeline-element-subtitle title'>
-									Manatt's Inc. &nbsp;&nbsp;&nbsp;&nbsp;{' '}
+									<a
+										href='https://www.manatts.com/'
+										target='_blank'
+										rel='noopener noreferrer'
+										className='links2'
+									>
+										Manatt's Inc.
+									</a>
+									&nbsp;&nbsp;&nbsp;&nbsp;{' '}
 									<span role='img' aria-label=''>
 										📍
 									</span>{' '}
@@ -169,7 +177,15 @@ export default class WorkExperience extends Component {
 									Remote Application Security Internship
 								</h5>
 								<h6 className='vertical-timeline-element-subtitle title'>
-									Nelnet Inc. &nbsp;&nbsp;&nbsp;&nbsp;{' '}
+									<a
+										href='https://www.nelnet.com/'
+										target='_blank'
+										rel='noopener noreferrer'
+										className='links2'
+									>
+										Nelnet Inc.
+									</a>{' '}
+									&nbsp;&nbsp;&nbsp;&nbsp;{' '}
 									<span role='img' aria-label=''>
 										📍
 									</span>{' '}
@@ -208,7 +224,15 @@ export default class WorkExperience extends Component {
 									IT Security Analyst
 								</h5>
 								<h6 className='vertical-timeline-element-subtitle title'>
-									Iowa State University &nbsp;&nbsp;&nbsp;&nbsp;{' '}
+									<a
+										href='https://security.it.iastate.edu/'
+										target='_blank'
+										rel='noopener noreferrer'
+										className='links2'
+									>
+										ISU - IT Services
+									</a>{' '}
+									&nbsp;&nbsp;&nbsp;&nbsp;{' '}
 									<span role='img' aria-label=''>
 										📍
 									</span>{' '}
@@ -246,7 +270,15 @@ export default class WorkExperience extends Component {
 									IT Software Engineer Internship
 								</h5>
 								<h6 className='vertical-timeline-element-subtitle title'>
-									Spreetail Inc. &nbsp;&nbsp;&nbsp;&nbsp;
+									<a
+										href='https://www.wearespreetail.com/'
+										target='_blank'
+										rel='noopener noreferrer'
+										className='links2'
+									>
+										Spreetail Inc.
+									</a>{' '}
+									&nbsp;&nbsp;&nbsp;&nbsp;
 									<span role='img' aria-label=''>
 										📍
 									</span>{' '}
@@ -281,7 +313,15 @@ export default class WorkExperience extends Component {
 									IT Solution Technician
 								</h5>
 								<h6 className='vertical-timeline-element-subtitle title'>
-									Iowa State Univeristy &nbsp;&nbsp;&nbsp;&nbsp;
+									<a
+										href='https://www.it.iastate.edu/'
+										target='_blank'
+										rel='noopener noreferrer'
+										className='links2'
+									>
+										ISU - IT Services
+									</a>{' '}
+									&nbsp;&nbsp;&nbsp;&nbsp;
 									<span role='img' aria-label=''>
 										📍
 									</span>{' '}
@@ -319,7 +359,15 @@ export default class WorkExperience extends Component {
 									First Year Orientation Leader
 								</h5>
 								<h6 className='vertical-timeline-element-subtitle title'>
-									Iowa State University &nbsp;&nbsp;&nbsp;&nbsp;
+									<a
+										href='https://isso.dso.iastate.edu/'
+										target='_blank'
+										rel='noopener noreferrer'
+										className='links2'
+									>
+										ISU - ISSO
+									</a>{' '}
+									&nbsp;&nbsp;&nbsp;&nbsp;
 									<span role='img' aria-label=''>
 										📍
 									</span>{' '}

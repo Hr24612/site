@@ -422,6 +422,10 @@ ul.timeline > li:before {
 	color: rgb(29, 89, 194);
 }
 
+.links2:hover {
+	color: black;
+}
+
 /* Documents */
 
 .documents {
