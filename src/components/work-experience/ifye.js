@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import logo from '../logo/isso.png';
 
-export default class IFYE extends Component {
+export default class CSM extends Component {
 	render() {
 		return (
 			<div className='About'>
@@ -66,7 +66,7 @@ export default class IFYE extends Component {
 					<div className='about-text p-3'>
 						<Fade>
 							<div className='text-center pt-5'>
-								<img src={logo} alt='' style={{ width: '300px' }} />
+								<img src={logo} alt='' className='isso-logo' />
 							</div>
 							<p className='pt-5'>
 								As a First-Year Orientation Leader, I was responsible for

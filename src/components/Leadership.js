@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
-import ieee from './logo/ieee.jpg';
-import rmcScore from './documents/RMC_FINAL_SCORE.pdf';
-import rmcLogo from './logo/rmclogo.png';
 import {
 	VerticalTimeline,
 	VerticalTimelineElement,
@@ -16,20 +13,16 @@ export default class Leadership extends Component {
 		this.state = {
 			left: '10px',
 			margin: '20px',
-			imageWidth: '200px',
 			fontSize: '16px',
 		};
 	}
 	updateDimensions() {
-		if (window.innerWidth < 768) {
-			this.setState({ imageWidth: '150px' });
-		}
 		if (window.innerWidth < 1168) {
 			this.setState({ left: '10px' });
 			this.setState({ margin: '12px' });
 		} else {
-			this.setState({ left: '10px' });
-			this.setState({ margin: '10px' });
+			this.setState({ left: '-10px' });
+			this.setState({ margin: '20px' });
 		}
 	}
 
@@ -118,7 +111,7 @@ export default class Leadership extends Component {
 					</div>
 
 					<div className='row'>
-						<VerticalTimeline layout={'1-column'}>
+						<VerticalTimeline>
 							<VerticalTimelineElement
 								className='vertical-timeline-element--work'
 								contentStyle={{
@@ -154,67 +147,10 @@ export default class Leadership extends Component {
 									</div>
 									<p style={{ fontSize: this.state.fontSize }}>
 										Cardinal Space Mining is a student-run club that builds a
-										mining robot to compete at{' '}
-										<span role='img' aria-label=''>
-											🚀
-										</span>
-										<a
-											href='https://www.nasa.gov/offices/education/centers/kennedy/technology/nasarmc.html'
-											target='_blank'
-											rel='noopener noreferrer'
-											className='links'
-										>
-											NASA's annual Robotics Mining Competition
-										</a>
-										. The competition's goal is to enable Universities across
-										the US to develop innovative mining ideas that can then be
-										implemented on actual NASA rovers that will be sent to Moon,
-										Mars, and beyond.
-									</p>
-									<img
-										className='TextWrap'
-										src={rmcLogo}
-										style={{ width: this.state.imageWidth }}
-										alt=''
-									/>
-									<p style={{ fontSize: this.state.fontSize }}>
-										When I took over as the President, I was immediately
-										presented with several challenges. We incurred budget cuts
-										from our sponsors, and my team ended up operating on 60% of
-										the previous year's budget. We had to completely rethink our
-										spending strategy to make it through the competition.
-										Managing people of different personalities and mindsets,
-										making sure everyone is feeling included, and completing
-										tasks on time were just a few of my worries. Since 2009, the
-										team has managed to stay in the top 5 at the competition.
-										Unfortunately, in 2018 we stood 8th, so I had enormous
-										pressure on me to get the team back in the top 5. This meant
-										making sure the technical people don't get bothered by
-										financial or administrative issues, so they deliver an
-										improved version of last year's robot. I was also involved
-										with the team on the techincal side. My main role was to
-										implement autonomous navigation of the robot. My team and I
-										implemented partial autonomy by using a verity of sensors.
-									</p>
-									<p style={{ fontSize: this.state.fontSize }}>
-										The team stood 4th out of 46 teams at the competition, and I
-										was on cloud nine when I received the news. Though we didn't
-										win the competition, it was still a great improvement from
-										the previous year and overall a good standing at the
-										competition.
-									</p>
-									<p style={{ fontSize: this.state.fontSize }}>
-										For final scores click{' '}
-										<span role='img' aria-label=''>
-											👉🏼
-										</span>{' '}
-										<a
-											href={rmcScore}
-											target='_blank'
-											rel='noopener noreferrer'
-											className='links'
-										>
-											<i>Official Score</i>
+										mining robot to compete at NASA's annual Robotics Mining
+										competition...{' '}
+										<a href='/leadership/csm' className='read-more'>
+											read more
 										</a>
 									</p>
 								</div>
@@ -228,7 +164,7 @@ export default class Leadership extends Component {
 								contentArrowStyle={{
 									borderRight: '7px solid rgb(29, 89, 1948)',
 								}}
-								date="August'17 - December'19"
+								date="August'17 - December'18"
 								iconStyle={{
 									background: 'rgb(29, 89, 194)',
 									color: '#fff',
@@ -246,40 +182,17 @@ export default class Leadership extends Component {
 										rel='noopener noreferrer'
 										className='links'
 									>
-										Institute of Electrical and Electronics Engineers (IEEE)
+										IEEE Stundet Branch
 									</a>
 								</h5>
 
 								<p style={{ fontSize: this.state.fontSize }}>
-									IEEE is a student-run club for the Electrical and Computer
-									Engineering department at Iowa State University. As the
-									President, my team and I did several activities to help the
-									students with their careers. We arranged recruiting seminars
-									for more than 20 companies in a semester.{' '}
-									<img
-										className='TextWrap'
-										src={ieee}
-										alt=''
-										style={{
-											boxShadow:
-												'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
-											borderRadius: '5px',
-											width: this.state.imageWidth,
-										}}
-									/>
-									This was an excellent opportunity for students to connect with
-									recruiters and gain insight into their culture and hiring
-									process. This was the club's biggest selling point, and we
-									ended up having more than 400 members at one point. I also the
-									tradition of funding student ⚙️projects. This was a great way
-									to help students learn practically without worrying about
-									finances. In addition to that, I also served on the Student
-									Advisory Committee, which the Department Chair led. The goal
-									for this committee was to share students' concerns and discuss
-									ways to help better the undergraduate program. I had a great
-									time leading this club. I met some amazing people who I am
-									still in contact with and got a chance to better my leadership
-									skills.
+									The Institute of Electrical and Electronics Engineers (IEEE)
+									is a student-run club for the Electrical and Computer
+									Engineering...{' '}
+									<a href='/leadership/ieee' className='read-more'>
+										read more
+									</a>
 								</p>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
@@ -312,15 +225,10 @@ export default class Leadership extends Component {
 								<p style={{ fontSize: this.state.fontSize }}>
 									Destination Iowa State is a three-day orientation event that
 									is organized for first-year students. Each team leader is
-									assigned a group of students and is responsible for leading
-									the group through different campus orientation events. As a
-									team leader, I toured my group around campus, helped them move
-									in{' '}
-									<span role='img' aria-label=''>
-										🏚️
-									</span>
-									, and directed them to campus resources for future academic
-									success.
+									assigned...{' '}
+									<a href='/leadership/dis' className='read-more'>
+										read more
+									</a>
 								</p>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
@@ -354,10 +262,12 @@ export default class Leadership extends Component {
 									</a>
 								</h5>
 								<p style={{ fontSize: this.state.fontSize }}>
-									As an outreach ambassador, I was given the responsibility to
-									reach out to incoming international students to help them with
-									their arrival in the USA, register for classes, and direct
-									them to campus resources for academic success.
+									As an outreach ambassador for the international students and
+									scholars office (ISSO), I was given the responsibility to
+									reach...{' '}
+									<a href='/leadership/outreach' className='read-more'>
+										read more
+									</a>
 								</p>
 							</VerticalTimelineElement>
 						</VerticalTimeline>

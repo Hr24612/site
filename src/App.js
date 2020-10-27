@@ -13,6 +13,11 @@ import itSecurity from './components/work-experience/it-security';
 import Spreetail from './components/work-experience/spreetail';
 import itSolution from './components/work-experience/it-solution';
 import IFYE from './components/work-experience/ifye';
+import CSM from './components/leadership/csm';
+import DIS from './components/leadership/dis';
+import IEEE from './components/leadership/ieee';
+import Outreach from './components/leadership/outreach';
+
 function App() {
 	return (
 		<Fragment>
@@ -20,6 +25,11 @@ function App() {
 				<Switch>
 					<Route exact path='/' component={LandingPage} />
 					<Route exact path='/leadership' component={Leadership} />
+					<Route exact path='/leadership/csm' component={CSM} />
+					<Route exact path='/leadership/dis' component={DIS} />
+					<Route exact path='/leadership/ieee' component={IEEE} />
+					<Route exact path='/leadership/outreach' component={Outreach} />
+
 					<Route exact path='/workexperience' component={WorkExperience} />
 					<Route exact path='/workexperience/manatts' component={Manatts} />
 					<Route exact path='/workexperience/nelnet' component={Nelnet} />

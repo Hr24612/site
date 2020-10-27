@@ -359,17 +359,53 @@ ul.timeline > li:before {
 	.leadership-title {
 		font-size: 35px;
 	}
+	.dis-logo {
+		width: 250px;
+	}
+	.ieee-logo {
+		width: 250px;
+	}
+	.csm-logo {
+		width: 250px;
+	}
+	.isso-logo {
+		width: 250px;
+	}
 }
 
 @media screen and (max-width: 992px) {
 	.leadership-title {
 		font-size: 30px;
 	}
+	.dis-logo {
+		width: 200px;
+	}
+	.ieee-logo {
+		width: 200px;
+	}
+	.csm-logo {
+		width: 1800px;
+	}
+	.isso-logo {
+		width: 200px;
+	}
 }
 
 @media screen and (max-width: 600px) {
 	.leadership-title {
 		font-size: 25px;
+	}
+	.dis-logo {
+		width: 150px;
+	}
+	.ieee-logo {
+		width: 150px;
+	}
+	.csm-logo {
+		width: 150px;
+	}
+	.isso-logo {
+		width: 150px;
 	}
 }
 
@@ -383,7 +419,7 @@ ul.timeline > li:before {
 	font-family: 'Ubuntu', sans-serif;
 }
 .links:hover {
-	color: black;
+	color: rgb(29, 89, 194);
 }
 
 /* Documents */
