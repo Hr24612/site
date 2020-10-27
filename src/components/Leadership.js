@@ -136,7 +136,7 @@ export default class Leadership extends Component {
 										<h5 className='title'>
 											President -{' '}
 											<a
-												href='https://www.stuorg.iastate.edu/site/spacemining'
+												href='https://www.stuorg.iastate.edu/spacemining'
 												target='_blank'
 												rel='noopener noreferrer'
 												className='links2'
