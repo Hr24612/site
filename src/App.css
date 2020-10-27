@@ -455,7 +455,6 @@ ul.timeline > li:before {
 		font-size: 40px;
 	}
 }
-
 @media screen and (max-width: 600px) {
 	.document-title {
 		font-size: 25px;
