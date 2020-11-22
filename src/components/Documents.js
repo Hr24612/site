@@ -34,7 +34,7 @@ export const Documents = () => {
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<img src={PDF} alt='' />
+									<img src={PDF} alt='' className='pdf' />
 								</a>
 
 								<p className='mt-3'>Resume</p>
@@ -47,7 +47,7 @@ export const Documents = () => {
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<img src={PDF} alt='' />
+									<img src={PDF} alt='' className='pdf' />
 								</a>
 
 								<p className='mt-3'>Cover Letter</p>
@@ -65,7 +65,7 @@ export const Documents = () => {
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<img src={PDF} alt='' />
+									<img src={PDF} alt='' className='pdf' />
 								</a>
 								<p className='mt-3'>Recommendation 1</p>
 							</div>
@@ -77,7 +77,7 @@ export const Documents = () => {
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<img src={PDF} alt='' />
+									<img src={PDF} alt='' className='pdf' />
 								</a>
 
 								<p className='mt-3'>Recommendation 2</p>
@@ -89,7 +89,7 @@ export const Documents = () => {
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<img src={PDF} alt='' />
+									<img src={PDF} alt='' className='pdf' />
 								</a>
 								<p className='mt-3'> Recommendation 3</p>
 							</div>
@@ -101,7 +101,7 @@ export const Documents = () => {
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<img src={PDF} alt='' />
+									<img src={PDF} alt='' className='pdf' />
 								</a>
 
 								<p className='mt-3'>Recommendation 4</p>
