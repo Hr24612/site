@@ -1,71 +1,18 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import { Link } from 'react-router-dom';
 import '../App.css';
+import NavBar from './Navbar';
 import Recommendation1 from './documents/recommendation1.pdf';
 import Recommendation2 from './documents/recommendation2.pdf';
 import Recommendation3 from './documents/recommendation3.pdf';
 import Recommendation4 from './documents/recommendation4.pdf';
-import software from './documents/SoftwareResume2020.pdf';
-import security from './documents/SecurityResume2020.pdf';
-
+import Resume from './documents/AmirHamza-Resume-2020.pdf';
+import CoverLetter from './documents/AmirHamza-CoverLetter-2020.pdf';
+import PDF from './logo/pdf.png';
 export const Documents = () => {
 	return (
 		<div className='Documents'>
-			<div className='nav'>
-				<nav className='navbar navbar-expand-lg  navbar1 navbar-dark'>
-					<button
-						class='navbar-toggler mt-2'
-						type='button'
-						data-toggle='collapse'
-						data-target='#navbarNav'
-						aria-controls='navbarNav'
-						aria-expanded='false'
-						aria-label='Toggle navigation'
-					>
-						<span class='navbar-toggler-icon'></span>
-					</button>
-					<div className='collapse navbar-collapse pt-3' id='navbarNav'>
-						<ul className='navbar-nav'>
-							<div className='nav-item '>
-								<Link NavLink to='/'>
-									<button className='btn x'>Home</button>
-								</Link>
-							</div>
-							<div className='nav-item'>
-								<Link NavLink to='/about'>
-									<button className='btn x'>About</button>
-								</Link>
-							</div>
-							<div className='nav-item'>
-								<Link NavLink to='/skills'>
-									<button className='btn x'>Skills</button>
-								</Link>
-							</div>
-							<div className='nav-item'>
-								<Link NavLink to='/workExperience'>
-									<button className='btn x'>Work Experience</button>
-								</Link>
-							</div>
-							<div className='nav-item'>
-								<Link NavLink to='/leadership'>
-									<button className='btn x'>Leadership</button>
-								</Link>
-							</div>
-							<div className='nav-item'>
-								<Link NavLink to='/projects'>
-									<button className='btn x'>Projects</button>
-								</Link>
-							</div>
-							<div className='nav-item'>
-								<Link NavLink to='/documents'>
-									<button className='btn x'>Documents</button>
-								</Link>
-							</div>
-						</ul>
-					</div>
-				</nav>
-			</div>
+			<NavBar />
 			<div className='container text-center'>
 				<div className='documents row justify-content-center'>
 					<Fade>
@@ -82,34 +29,28 @@ export const Documents = () => {
 						<Fade>
 							<div className='col-sm-2 col-md-2 col-lg-2 mb-3 mt-5'>
 								<a
-									href={software}
+									href={Resume}
 									target='_blank'
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<span role='img' aria-label='' className='file'>
-										{' '}
-										📄
-									</span>
+									<img src={PDF} alt='' />
 								</a>
 
-								<p className='mt-3'>Software Resume</p>
+								<p className='mt-3'>Resume</p>
 							</div>
 							<div class='col-sm-auto'></div>
 							<div className='col-sm-2 col-md-2 col-lg-2 mb-3 mt-5'>
 								<a
-									href={security}
+									href={CoverLetter}
 									target='_blank'
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<span role='img' aria-label='' className='file'>
-										{' '}
-										📄
-									</span>
+									<img src={PDF} alt='' />
 								</a>
 
-								<p className='mt-3'>Security Resume</p>
+								<p className='mt-3'>Cover Letter</p>
 							</div>
 						</Fade>
 					</div>
@@ -124,10 +65,7 @@ export const Documents = () => {
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<span role='img' aria-label='' className='file'>
-										{' '}
-										📄
-									</span>
+									<img src={PDF} alt='' />
 								</a>
 								<p className='mt-3'>Recommendation 1</p>
 							</div>
@@ -139,10 +77,7 @@ export const Documents = () => {
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<span role='img' aria-label='' className='file'>
-										{' '}
-										📄
-									</span>
+									<img src={PDF} alt='' />
 								</a>
 
 								<p className='mt-3'>Recommendation 2</p>
@@ -154,10 +89,7 @@ export const Documents = () => {
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<span role='img' aria-label='' className='file'>
-										{' '}
-										📄
-									</span>
+									<img src={PDF} alt='' />
 								</a>
 								<p className='mt-3'> Recommendation 3</p>
 							</div>
@@ -169,10 +101,7 @@ export const Documents = () => {
 									rel='noopener noreferrer'
 									style={{ color: 'inherit' }}
 								>
-									<span role='img' aria-label='' className='file'>
-										{' '}
-										📄
-									</span>
+									<img src={PDF} alt='' />
 								</a>
 
 								<p className='mt-3'>Recommendation 4</p>

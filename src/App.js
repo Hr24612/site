@@ -17,7 +17,11 @@ import Csm from './components/leadership/csm';
 import Dis from './components/leadership/dis';
 import Ieee from './components/leadership/ieee';
 import Outreach from './components/leadership/outreach';
-
+import Project1 from './components/projects/project1';
+import Project2 from './components/projects/project2';
+import Project3 from './components/projects/project3';
+import Project4 from './components/projects/project4';
+import NotFound from './components/NotFound';
 function App() {
 	return (
 		<Fragment>
@@ -46,9 +50,14 @@ function App() {
 					/>
 					<Route exact path='/workexperience/ifye' component={Ifye} />
 					<Route exact path='/projects' component={Projects} />
+					<Route exact path='/projects/project1' component={Project1} />
+					<Route exact path='/projects/project2' component={Project2} />
+					<Route exact path='/projects/project3' component={Project3} />
+					<Route exact path='/projects/project4' component={Project4} />
 					<Route exact path='/documents' component={Documents} />
 					<Route exact path='/skills' component={Skills} />
 					<Route exact path='/about' component={AboutMe} />
+					<Route component={NotFound} />
 				</Switch>
 			</Router>
 		</Fragment>

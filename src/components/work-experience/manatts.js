@@ -123,8 +123,10 @@ export default class Manatts extends Component {
 								team more inclusive and collaborative.
 							</p>
 							<p>
-								So far into this role, I've learned many new technologies, and I
-								am excited for what is yet to come.
+								For the last three weeks of my internship, I helped integrate an
+								IoT application on Balena Cloud, a container-based platform for
+								deploying IoT applications. This removed the need to update code
+								for every single IoT device manually.
 							</p>
 							<div className='text-center mt-5 mb-2'>
 								<p className=''>Technologies used</p>

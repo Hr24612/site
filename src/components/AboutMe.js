@@ -1,66 +1,13 @@
 import React, { Component } from 'react';
 import '../App.css';
-import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import flag from './logo/pak.png';
+import NavBar from './Navbar';
 export default class About extends Component {
 	render() {
 		return (
 			<div className='About'>
-				<div className='nav'>
-					<nav className='navbar navbar-expand-lg  navbar1 navbar-dark'>
-						<button
-							className='navbar-toggler mt-2'
-							type='button'
-							data-toggle='collapse'
-							data-target='#navbarNav'
-							aria-controls='navbarNav'
-							aria-expanded='false'
-							aria-label='Toggle navigation'
-						>
-							<span className='navbar-toggler-icon'></span>
-						</button>
-						<div className='collapse navbar-collapse pt-3' id='navbarNav'>
-							<ul className='navbar-nav'>
-								<div className='nav-item '>
-									<Link NavLink to='/'>
-										<button className='btn x'>Home</button>
-									</Link>
-								</div>
-								<div className='nav-item'>
-									<Link NavLink to='/about'>
-										<button className='btn x'>About</button>
-									</Link>
-								</div>
-								<div className='nav-item'>
-									<Link NavLink to='/skills'>
-										<button className='btn x'>Skills</button>
-									</Link>
-								</div>
-								<div className='nav-item'>
-									<Link NavLink to='/workexperience'>
-										<button className='btn x'>Work Experience</button>
-									</Link>
-								</div>
-								<div className='nav-item'>
-									<Link NavLink to='/leadership'>
-										<button className='btn x'>Leadership</button>
-									</Link>
-								</div>
-								<div className='nav-item'>
-									<Link NavLink to='/projects'>
-										<button className='btn x'>Projects</button>
-									</Link>
-								</div>
-								<div className='nav-item'>
-									<Link NavLink to='/documents'>
-										<button className='btn x'>Documents</button>
-									</Link>
-								</div>
-							</ul>
-						</div>
-					</nav>
-				</div>
+				<NavBar />
 				<div className='container'>
 					<div className='workexperience row justify-content-center'>
 						<Fade>
@@ -77,8 +24,9 @@ export default class About extends Component {
 						<Fade>
 							<p>
 								My name is Amir, and I am an international student from Pakistan{' '}
-								<img src={flag} alt='' className='flag'/>. I am currently studying computer
-								engineering at Iowa State University, and I plan to graduate
+								<img src={flag} alt='' className='flag' />. I am currently
+								studying computer engineering at Iowa State University, and I
+								plan to graduate
 								<span role='img' aria-label=''>
 									🎓
 								</span>

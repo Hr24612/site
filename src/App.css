@@ -2,7 +2,8 @@ html,
 body {
 	scroll-behavior: smooth;
 	font-family: 'Ubuntu', sans-serif;
-	background-color: black;
+	background-color: #000000;
+	background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.07' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 /* Global Style */
@@ -19,7 +20,8 @@ a.read-more:hover {
 }
 /* Landing Page */
 #landing {
-	background-color: black;
+	background-color: #000000;
+	background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.07' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 .x:hover {
@@ -336,8 +338,10 @@ ul.timeline > li:before {
 .Project,
 .Documents,
 .Skills,
-.About {
-	background-color: black;
+.About,
+.NotFound {
+	background-color: #000000;
+	background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.07' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 	color: white;
 	width: 100%;
 	background-attachment: fixed;
@@ -472,11 +476,17 @@ ul.timeline > li:before {
 	.project-title {
 		font-size: 35px;
 	}
+	.project-title2 {
+		font-size: 25px;
+	}
 }
 
 @media screen and (max-width: 992px) {
 	.project-title {
 		font-size: 30px;
+	}
+	.project-title2 {
+		font-size: 20px;
 	}
 }
 
@@ -544,11 +554,10 @@ ul.timeline > li:before {
 	margin: 4%;
 }
 
-.shield2,
-.paint,
-.computer,
-.chain2 {
-	font-size: 50px;
+.ui,
+.backend,
+.security {
+	width: 70px;
 }
 
 #heading1 {
@@ -595,6 +604,50 @@ ul.timeline > li:before {
 .about-text {
 	font-size: 17px;
 }
+
+/* Page Not Found */
+
+.spinning-emoji {
+	display: inline-block;
+	animation: spin 3s infinite linear;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes twist-up {
+	to {
+		transform: rotateX(360deg);
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.NotFound-Text {
+		color: white;
+		font-size: 60px;
+		margin-top: 30vh;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.NotFound-Text {
+		color: white;
+		font-size: 50px;
+		margin-top: 30vh;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.NotFound-Text {
+		color: white;
+		font-size: 30px;
+		margin-top: 25vh;
+	}
+}
+
 /* .title-paragraph {
 	font-size: 20px;
 } */

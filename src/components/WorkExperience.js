@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import '../App.css';
 import Fade from 'react-reveal/Fade';
 import {
@@ -7,7 +6,7 @@ import {
 	VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-
+import NavBar from './Navbar';
 export default class WorkExperience extends Component {
 	constructor() {
 		super();
@@ -39,60 +38,7 @@ export default class WorkExperience extends Component {
 	render() {
 		return (
 			<div className='WorkExperience'>
-				<div className='nav'>
-					<nav className='navbar navbar-expand-lg  navbar1 navbar-dark'>
-						<button
-							className='navbar-toggler mt-2'
-							type='button'
-							data-toggle='collapse'
-							data-target='#navbarNav'
-							aria-controls='navbarNav'
-							aria-expanded='false'
-							aria-label='Toggle navigation'
-						>
-							<span className='navbar-toggler-icon'></span>
-						</button>
-						<div className='collapse navbar-collapse pt-3' id='navbarNav'>
-							<ul className='navbar-nav'>
-								<div className='nav-item '>
-									<Link NavLink to='/'>
-										<button className='btn x'>Home</button>
-									</Link>
-								</div>
-								<div className='nav-item'>
-									<Link NavLink to='/about'>
-										<button className='btn x'>About</button>
-									</Link>
-								</div>
-								<div className='nav-item'>
-									<Link NavLink to='/skills'>
-										<button className='btn x'>Skills</button>
-									</Link>
-								</div>
-								<div className='nav-item'>
-									<Link NavLink to='/workexperience'>
-										<button className='btn x'>Work Experience</button>
-									</Link>
-								</div>
-								<div className='nav-item'>
-									<Link NavLink to='/leadership'>
-										<button className='btn x'>Leadership</button>
-									</Link>
-								</div>
-								<div className='nav-item'>
-									<Link NavLink to='/projects'>
-										<button className='btn x'>Projects</button>
-									</Link>
-								</div>
-								<div className='nav-item'>
-									<Link NavLink to='/documents'>
-										<button className='btn x'>Documents</button>
-									</Link>
-								</div>
-							</ul>
-						</div>
-					</nav>
-				</div>
+				<NavBar />
 				<div className='container'>
 					<div className='workexperience row justify-content-center'>
 						<Fade>
@@ -108,15 +54,15 @@ export default class WorkExperience extends Component {
 					<div className='row'>
 						<VerticalTimeline>
 							<VerticalTimelineElement
-								className='vertical-timeline-element--work'
+								className='vertical-timeline-element--work '
 								contentStyle={{
 									background: 'rgb(29, 89, 194)',
 									color: '#fff',
 								}}
 								contentArrowStyle={{
-									borderRight: '7px solid  rgb(29, 89, 194)',
+									borderRight: '7px solid rgb(29, 89, 194)',
 								}}
-								date="August'20 - present"
+								date="December'20 - Ongoing"
 								iconStyle={{
 									background: 'rgb(29, 89, 194)',
 									color: '#fff',
@@ -127,7 +73,49 @@ export default class WorkExperience extends Component {
 								}}
 							>
 								<h5 className='vertical-timeline-element-title title'>
-									Remote Software Developer Co-op
+									Application Security Internship
+								</h5>
+								<h6 className='vertical-timeline-element-subtitle title'>
+									<a
+										href='https://www.nelnet.com/'
+										target='_blank'
+										rel='noopener noreferrer'
+										className='links2'
+									>
+										Nelnet Inc.
+									</a>{' '}
+									&nbsp;&nbsp;&nbsp;&nbsp;{' '}
+									<span role='img' aria-label=''>
+										📍
+									</span>{' '}
+									Remote
+								</h6>
+								<p style={{ fontSize: this.state.fontSize }}>
+								Carrying out web penetration testing of company’s internal tools 
+								and providing quality and assurance to the codebase.
+								</p>
+							</VerticalTimelineElement>
+							<VerticalTimelineElement
+								className='vertical-timeline-element--work'
+								contentStyle={{
+									background: 'rgb(29, 89, 194)',
+									color: '#fff',
+								}}
+								contentArrowStyle={{
+									borderRight: '7px solid  rgb(29, 89, 194)',
+								}}
+								date="August'20 - December'20"
+								iconStyle={{
+									background: 'rgb(29, 89, 194)',
+									color: '#fff',
+									width: '20px',
+									height: '20px',
+									marginLeft: this.state.left,
+									marginTop: this.state.margin,
+								}}
+							>
+								<h5 className='vertical-timeline-element-title title'>
+									Software Developer Internship
 								</h5>
 
 								<h6 className='vertical-timeline-element-subtitle title'>
@@ -143,7 +131,7 @@ export default class WorkExperience extends Component {
 									<span role='img' aria-label=''>
 										📍
 									</span>{' '}
-									Brooklyn, IA
+									Remote
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
 									Manatt's, Inc. is a construction company based in Brooklyn,
@@ -174,7 +162,7 @@ export default class WorkExperience extends Component {
 								}}
 							>
 								<h5 className='vertical-timeline-element-title title'>
-									Remote Application Security Internship
+									Application Security Internship
 								</h5>
 								<h6 className='vertical-timeline-element-subtitle title'>
 									<a
@@ -189,7 +177,7 @@ export default class WorkExperience extends Component {
 									<span role='img' aria-label=''>
 										📍
 									</span>{' '}
-									Lincoln, NE
+									Remote
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
 									Nelnet is a financial services provider heaquartederd at
