@@ -255,7 +255,7 @@ export default class WorkExperience extends Component {
 								}}
 							>
 								<h5 className='vertical-timeline-element-title title'>
-									IT Software Engineer Internship
+									IT Software Developer Internship
 								</h5>
 								<h6 className='vertical-timeline-element-subtitle title'>
 									<a
