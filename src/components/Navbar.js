@@ -21,37 +21,37 @@ export default class NavBar extends Component {
 					<div className='collapse navbar-collapse pt-3' id='navbarNav'>
 						<ul className='navbar-nav'>
 							<div className='nav-item '>
-								<Link NavLink to='/'>
+								<Link to='/'>
 									<button className='btn x'>Home</button>
 								</Link>
 							</div>
 							<div className='nav-item'>
-								<Link NavLink to='/about'>
+								<Link to='/about'>
 									<button className='btn x'>About</button>
 								</Link>
 							</div>
 							<div className='nav-item'>
-								<Link NavLink to='/skills'>
+								<Link to='/skills'>
 									<button className='btn x'>Skills</button>
 								</Link>
 							</div>
 							<div className='nav-item'>
-								<Link NavLink to='/workexperience'>
+								<Link to='/workexperience'>
 									<button className='btn x'>Work Experience</button>
 								</Link>
 							</div>
 							<div className='nav-item'>
-								<Link NavLink to='/leadership'>
+								<Link to='/leadership'>
 									<button className='btn x'>Leadership</button>
 								</Link>
 							</div>
 							<div className='nav-item'>
-								<Link NavLink to='/projects'>
+								<Link to='/projects'>
 									<button className='btn x'>Projects</button>
 								</Link>
 							</div>
 							<div className='nav-item'>
-								<Link NavLink to='/documents'>
+								<Link to='/documents'>
 									<button className='btn x'>Documents</button>
 								</Link>
 							</div>

@@ -46,7 +46,7 @@ export default class WorkExperience extends Component {
 								<span role='img' aria-label=''>
 									💼
 								</span>{' '}
-								Work Experiece
+								Work Experience
 							</p>
 						</Fade>
 					</div>

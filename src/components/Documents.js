@@ -39,7 +39,7 @@ export const Documents = () => {
 
 								<p className='mt-3'>Resume</p>
 							</div>
-							<div class='col-sm-auto'></div>
+							<div className='col-sm-auto'></div>
 							<div className='col-sm-2 col-md-2 col-lg-2 mb-3 mt-5'>
 								<a
 									href={CoverLetter}
