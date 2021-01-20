@@ -107,7 +107,7 @@ export default class CSM extends Component {
 								robot. My team and I implemented partial autonomy by using a
 								variety of sensors. Infrared and sonar sensors were used to
 								perform obstacle detection. Transceiver chips were mounted
-								around the arena and robot to triangulate its location. A laser
+								around the arena and the robot to triangulate its location. A laser
 								gimble was placed on top of the robot for orientation
 								adjustment. Lastly, bump sensors were used to change direction
 								in case of a collision.
@@ -115,7 +115,7 @@ export default class CSM extends Component {
 							<p>
 								The team stood{' '}
 								<span style={{ color: '#00de16' }}>4th out of 46</span> teams at
-								the competition,and I was very pleased with our standing.
+								the competition, and I was very pleased with our standing.
 								Though we didn't win the competition, it was still a great
 								improvement from the previous year and, overall, a good standing
 								at the competition despite the challenges we faced at the start.

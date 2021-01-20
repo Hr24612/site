@@ -74,7 +74,7 @@ export default class Manatts extends Component {
 								<span role='img' aria-label=''>
 									📍
 								</span>
-								Brooklyn, Iowa. As a software developer, I'm helping build the
+								Brooklyn, Iowa. As a software developer, I helped build the
 								company's internal financial tool in Angular.js and .NET. This
 								tool is a time tracking app used by thousands of Manatt's hourly
 								construction employees and their managers to clock in time and

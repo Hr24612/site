@@ -55,7 +55,7 @@ a.read-more:hover {
 @media screen and (max-width: 992px) {
 	.landing-title {
 		color: white;
-		font-size: 50px;
+		font-size: 60px;
 		margin: 4%;
 	}
 	.main-text {
@@ -66,7 +66,7 @@ a.read-more:hover {
 @media screen and (max-width: 600px) {
 	.landing-title {
 		color: white;
-		font-size: 30px;
+		font-size: 40px;
 		margin: 1.5%;
 	}
 	.main-text {
@@ -213,10 +213,13 @@ a.read-more:hover {
 }
 
 /* Work Experience  */
+.work-title {
+	font-size: 35px;
+}
 @media screen and (min-width: 992px) {
-	.work-title {
+	/* .work-title {
 		font-size: 35px;
-	}
+	} */
 	.manatts-tools {
 		width: 500px;
 	}
@@ -244,9 +247,9 @@ a.read-more:hover {
 }
 
 @media screen and (max-width: 992px) {
-	.work-title {
-		font-size: 30px;
-	}
+	/* .work-title {
+		font-size: 35px;
+	} */
 	.manatts-tools {
 		width: 350px;
 	}
@@ -274,9 +277,9 @@ a.read-more:hover {
 }
 
 @media screen and (max-width: 600px) {
-	.work-title {
-		font-size: 25px;
-	}
+	/* .work-title {
+		font-size: 35px;
+	} */
 	.manatts-tools {
 		width: 320px;
 	}
@@ -359,10 +362,13 @@ ul.timeline > li:before {
 
 /* Leadership */
 
+.leadership-title {
+	font-size: 35px;
+}
 @media screen and (min-width: 992px) {
-	.leadership-title {
+	/* .leadership-title {
 		font-size: 35px;
-	}
+	} */
 	.dis-logo {
 		width: 250px;
 	}
@@ -378,9 +384,9 @@ ul.timeline > li:before {
 }
 
 @media screen and (max-width: 992px) {
-	.leadership-title {
+	/* .leadership-title {
 		font-size: 30px;
-	}
+	} */
 	.dis-logo {
 		width: 200px;
 	}
@@ -396,9 +402,9 @@ ul.timeline > li:before {
 }
 
 @media screen and (max-width: 600px) {
-	.leadership-title {
+	/* .leadership-title {
 		font-size: 25px;
-	}
+	} */
 	.dis-logo {
 		width: 150px;
 	}
@@ -439,10 +445,13 @@ ul.timeline > li:before {
 .pdf {
 	width: 60px;
 }
+.document-title {
+	font-size: 35px;
+}
 @media screen and (min-width: 992px) {
-	.document-title {
+	/* .document-title {
 		font-size: 35px;
-	}
+	} */
 	.content {
 		margin-top: 10vh;
 	}
@@ -452,9 +461,9 @@ ul.timeline > li:before {
 }
 
 @media screen and (max-width: 992px) {
-	.document-title {
+	/* .document-title {
 		font-size: 30px;
-	}
+	} */
 	.content {
 		margin-top: 10vh;
 	}
@@ -463,9 +472,9 @@ ul.timeline > li:before {
 	}
 }
 @media screen and (max-width: 600px) {
-	.document-title {
+	/* .document-title {
 		font-size: 25px;
-	}
+	} */
 	.content {
 		margin-top: 0vh;
 	}
@@ -475,16 +484,16 @@ ul.timeline > li:before {
 }
 
 /* Projects */
-@media screen and (min-width: 992px) {
-	.project-title {
-		font-size: 35px;
-	}
-	.project-title2 {
-		font-size: 25px;
-	}
+/* @media screen and (min-width: 992px) { */
+.project-title {
+	font-size: 35px;
 }
+.project-title2 {
+	font-size: 25px;
+}
+/* } */
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
 	.project-title {
 		font-size: 30px;
 	}
@@ -497,7 +506,7 @@ ul.timeline > li:before {
 	.project-title {
 		font-size: 25px;
 	}
-}
+} */
 
 .project {
 	margin: 4%;
@@ -508,10 +517,13 @@ ul.timeline > li:before {
 }
 /* Skills */
 
+.skill-title {
+	font-size: 35px;
+}
 @media screen and (min-width: 992px) {
-	.skill-title {
+	/* .skill-title {
 		font-size: 35px;
-	}
+	} */
 	.card-deck {
 		margin-top: 20vh;
 	}
@@ -522,9 +534,9 @@ ul.timeline > li:before {
 }
 
 @media screen and (max-width: 992px) {
-	.skill-title {
+	/* .skill-title {
 		font-size: 30px;
-	}
+	} */
 	.card-deck {
 		margin-top: 10vh;
 	}
@@ -541,9 +553,9 @@ ul.timeline > li:before {
 	}
 }
 @media screen and (max-width: 576px) {
-	.skill-title {
+	/* .skill-title {
 		font-size: 25px;
-	}
+	} */
 	.card-deck {
 		margin-top: 10vh;
 	}
@@ -558,8 +570,8 @@ ul.timeline > li:before {
 }
 
 .ui,
-.backend,
-.security {
+.security,
+.backend {
 	width: 70px;
 }
 

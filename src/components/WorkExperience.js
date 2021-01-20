@@ -91,8 +91,8 @@ export default class WorkExperience extends Component {
 									Remote
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
-								Carrying out web penetration testing of company’s internal tools 
-								and providing quality and assurance to the codebase.
+									Carrying out web penetration testing of company’s internal
+									tools and providing quality and assurance to the codebase.
 								</p>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
@@ -135,8 +135,7 @@ export default class WorkExperience extends Component {
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
 									Manatt's, Inc. is a construction company based in Brooklyn,
-									Iowa. As a software developer, I'm helping build the
-									company's...{' '}
+									Iowa. As a software developer, I helped build the company's...{' '}
 									<a href='/workexperience/manatts' className='read-more'>
 										read more
 									</a>
@@ -180,9 +179,9 @@ export default class WorkExperience extends Component {
 									Remote
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
-									Nelnet is a financial services provider heaquartederd at
-									Lincoln, Nebrasks. It specializes in, private and federal
-									student loans...{' '}
+									Nelnet is a financial services provider specializing in
+									private and federal student loans, insurance services, and
+									commercial...{' '}
 									<a
 										NavLink
 										href='/workexperience/nelnet'

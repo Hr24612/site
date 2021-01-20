@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import Fade from 'react-reveal/Fade';
-import flag from './logo/pak.png';
+
 import NavBar from './Navbar';
 export default class About extends Component {
 	render() {
@@ -23,19 +23,17 @@ export default class About extends Component {
 					<div class='about-text p-3'>
 						<Fade>
 							<p>
-								My name is Amir, and I am an international student from Pakistan{' '}
-								<img src={flag} alt='' className='flag' />. I am currently
-								studying computer engineering at Iowa State University, and I
-								plan to graduate
+								I am currently pursuing a bachelor's degree in Computer
+								Engineering at Iowa State University, and I will be graduating
 								<span role='img' aria-label=''>
 									🎓
 								</span>
 								in May 2021. My passions include work, relationships, and
 								travel. Work gives meaning to my life and keeps me going through
 								the day. Relationships motivate me to work harder and do a
-								little better every time. Travel gives me perspective as it
-								challenges my beliefs and makes me appreciate people and our
-								world even more.
+								little better every time. Travel gives me a different
+								perspective as it challenges my beliefs and makes me appreciate
+								people and our world even more.
 							</p>
 							<p>
 								Work is a big part of my life, and I am very excited to begin my

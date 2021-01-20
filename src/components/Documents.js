@@ -6,8 +6,8 @@ import Recommendation1 from './documents/recommendation1.pdf';
 import Recommendation2 from './documents/recommendation2.pdf';
 import Recommendation3 from './documents/recommendation3.pdf';
 import Recommendation4 from './documents/recommendation4.pdf';
-import Resume from './documents/AmirHamza-Resume-2020.pdf';
-import CoverLetter from './documents/AmirHamza-CoverLetter-2020.pdf';
+import Resume from './documents/AmirHamza-Resume-2021.pdf';
+import CoverLetter from './documents/AmirHamza-CoverLetter-2021.pdf';
 import PDF from './logo/pdf.png';
 export const Documents = () => {
 	return (

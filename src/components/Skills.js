@@ -37,11 +37,11 @@ export const Skills = () => {
 									</div>
 									<div className='back card'>
 										<ul className='mt-4'>
+											<li>Language: JavaScript, TypeScript, Java & Kotlin</li>
 											<li>
 												Web Frameworks: React.js, Angular.js, and Bootstrap
 											</li>
 											<li>Mobile Framework: Android SDK</li>
-											<li>Language: JavaScript, TypeScript, Java & Kotlin</li>
 										</ul>
 									</div>
 								</div>
@@ -58,8 +58,8 @@ export const Skills = () => {
 									</div>
 									<div className='back card'>
 										<ul className='mt-4'>
-											<li>Frameworks: Node.js, .NET, and Spring Boot</li>
 											<li>Languages: JavaScript, C#, and Java</li>
+											<li>Frameworks: Node.js, .NET, and Spring Boot</li>
 											<li>Clouds: AWS, Azure, Heroku, Netlify and Balena</li>
 										</ul>
 									</div>

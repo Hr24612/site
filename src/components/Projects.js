@@ -72,9 +72,13 @@ export default class Projects extends Component {
 									marginTop: this.state.margin,
 								}}
 								icon={
-									///a href='' target='_blank'>
-									<i className='fab fa-github' id='github'></i>
-									//</a>
+									<a
+										href='https://github.com/Hr24612/SeniorDesign'
+										target='_blank'
+										rel='noopener noreferrer'
+									>
+										<i className='fab fa-github' id='github'></i>
+									</a>
 								}
 							>
 								<h5 className='vertical-timeline-element-title title'>
@@ -205,7 +209,7 @@ export default class Projects extends Component {
 									CprE388: Android Development
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
-									Developer a workout app with a built-in music play and uses
+									Developed a workout app with a built-in music play and uses
 									voice recognition to switch between workouts without
 									physically using the app.
 								</p>
@@ -244,8 +248,8 @@ export default class Projects extends Component {
 									CprE288: Embedded Systems
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
-									Developed a aotonomous roomba that run on Texas Instruments
-									Launchpad platform.
+									Developed an autonomous Roomba that runs on the Texas
+									Instruments Launchpad platform.
 								</p>
 								<p style={{ fontSize: this.state.fontSize }}>
 									Click{' '}

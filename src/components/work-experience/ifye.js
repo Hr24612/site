@@ -76,7 +76,7 @@ export default class CSM extends Component {
 								cultural norms, and useful campus resources. I was responsible
 								for leading three classes, where I taught{' '}
 								<span style={{ color: '#00de16' }}>60</span> students in total.
-								Every week, I lead class lectures, and graded homework and
+								Every week, I lead class lectures and graded homework and
 								student presentations.
 							</p>
 						</Fade>
