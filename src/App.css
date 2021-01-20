@@ -66,7 +66,7 @@ a.read-more:hover {
 @media screen and (max-width: 600px) {
 	.landing-title {
 		color: white;
-		font-size: 40px;
+		font-size: 45px;
 		margin: 1.5%;
 	}
 	.main-text {
