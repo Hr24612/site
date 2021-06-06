@@ -23,33 +23,40 @@ export default class About extends Component {
 					<div class='about-text p-3'>
 						<Fade>
 							<p>
-								I am currently pursuing a bachelor's degree in Computer
-								Engineering at Iowa State University, and I will be graduating
+								I am a Cyber Security Analyst{' '}
 								<span role='img' aria-label=''>
-									🎓
-								</span>
-								in May 2021. My passions include work, relationships, and
-								travel. Work gives meaning to my life and keeps me going through
-								the day. Relationships motivate me to work harder and do a
-								little better every time. Travel gives me a different
-								perspective as it challenges my beliefs and makes me appreciate
-								people and our world even more.
+									🔒
+								</span>{' '}
+								at{' '}
+								<a
+									href='https://nelnetinc.com/'
+									target='_blank'
+									rel='noopener noreferrer'
+									className='links'
+								>
+									<i>Nelnet Inc.</i>
+								</a>
+								, where I am involved in application security and DevSecOps. I
+								graduated from Iowa State University with a Bachelor's in
+								Computer Engineering in Spring 2021.
 							</p>
 							<p>
-								Work is a big part of my life, and I am very excited to begin my
-								career soon. I can't wait to put my knowledge from my
-								experiences to the real world. Impact matters to me the most,
-								and that's what I am looking for in a new role. I am open to
-								Full Stack and Application Security positions starting
-								post-graduation.
+								My passions include work, relationships, and travel. Work gives
+								meaning to my life and keeps me going through the day.
+								Relationships motivate me to work harder and do a little better
+								every time. Travel gives me a different perspective as it
+								challenges my beliefs and makes me appreciate people and our
+								world even more.
 							</p>
+							<br />
 							<p>
 								<span role='img' aria-label=''>
 									👇🏼
 								</span>{' '}
-								If you would like to connect, please follow the links below.
+								If you would like to connect with me, please follow the links
+								below.
 							</p>
-							<div id='socialMedia' className='text-center  pt-5'>
+							<div id='socialMedia' className='text-center  pt-3'>
 								<div className='row text-center'>
 									<form
 										action='https://www.linkedin.com/in/amir-hamza96/'

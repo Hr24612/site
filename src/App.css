@@ -442,6 +442,12 @@ ul.timeline > li:before {
 	margin: 4%;
 }
 
+@media screen and (min-width: 992px) {
+	.col-half-offset {
+		margin-left: 4.166666667%;
+	}
+}
+
 .pdf {
 	width: 60px;
 }

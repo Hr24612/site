@@ -62,7 +62,48 @@ export default class WorkExperience extends Component {
 								contentArrowStyle={{
 									borderRight: '7px solid rgb(29, 89, 194)',
 								}}
-								date="December'20 - Ongoing"
+								date="July'21 - Present"
+								iconStyle={{
+									background: 'rgb(29, 89, 194)',
+									color: '#fff',
+									width: '20px',
+									height: '20px',
+									marginLeft: this.state.left,
+									marginTop: this.state.margin,
+								}}
+							>
+								<h5 className='vertical-timeline-element-title title'>
+									Cyber Security Analyst
+								</h5>
+								<h6 className='vertical-timeline-element-subtitle title'>
+									<a
+										href='https://nelnetinc.com/'
+										target='_blank'
+										rel='noopener noreferrer'
+										className='links2'
+									>
+										Nelnet Inc.
+									</a>{' '}
+									&nbsp;&nbsp;&nbsp;&nbsp;{' '}
+									<span role='img' aria-label=''>
+										📍
+									</span>{' '}
+									Remote
+								</h6>
+								<p style={{ fontSize: this.state.fontSize }}>
+									Application Security and DevSecOps
+								</p>
+							</VerticalTimelineElement>
+							<VerticalTimelineElement
+								className='vertical-timeline-element--work '
+								contentStyle={{
+									background: 'rgb(29, 89, 194)',
+									color: '#fff',
+								}}
+								contentArrowStyle={{
+									borderRight: '7px solid rgb(29, 89, 194)',
+								}}
+								date="December'20 - May'21"
 								iconStyle={{
 									background: 'rgb(29, 89, 194)',
 									color: '#fff',
@@ -77,7 +118,7 @@ export default class WorkExperience extends Component {
 								</h5>
 								<h6 className='vertical-timeline-element-subtitle title'>
 									<a
-										href='https://www.nelnet.com/'
+										href='https://nelnetinc.com/'
 										target='_blank'
 										rel='noopener noreferrer'
 										className='links2'
@@ -91,8 +132,8 @@ export default class WorkExperience extends Component {
 									Remote
 								</h6>
 								<p style={{ fontSize: this.state.fontSize }}>
-									Carrying out web penetration testing of company’s internal
-									tools and providing quality and assurance to the codebase.
+									Carried out web penetration testing of company’s internal
+									tools and provided quality and assurance to the codebase.
 								</p>
 							</VerticalTimelineElement>
 							<VerticalTimelineElement
@@ -165,7 +206,7 @@ export default class WorkExperience extends Component {
 								</h5>
 								<h6 className='vertical-timeline-element-subtitle title'>
 									<a
-										href='https://www.nelnet.com/'
+										href='https://nelnetinc.com/'
 										target='_blank'
 										rel='noopener noreferrer'
 										className='links2'
